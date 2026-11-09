@@ -1,0 +1,41 @@
+{
+  "name": "@persistnotes/mcp",
+  "version": "0.1.0",
+  "description": "Read-only MCP server for Persist Notes: lets Claude search your meeting notes, summaries, action items and project syntheses (local Markdown files).",
+  "mcpName": "io.github.Controlled/persist-notes",
+  "license": "MIT",
+  "author": "Persist Notes",
+  "homepage": "https://persistnotes.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Controlled/persist-notes-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "meeting-notes",
+    "transcription",
+    "markdown",
+    "persist-notes"
+  ],
+  "bin": {
+    "persist-notes-mcp": "bin/persist-notes-mcp.js"
+  },
+  "main": "dist/server.js",
+  "files": [
+    "bin/",
+    "dist/",
+    "README.md",
+    "README.pt-BR.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "prepack": "node scripts/build.js",
+    "start": "node bin/persist-notes-mcp.js"
+  }
+}

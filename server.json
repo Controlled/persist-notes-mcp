@@ -1,0 +1,39 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Controlled/persist-notes",
+  "title": "Persist Notes",
+  "description": "Read-only access to your Persist Notes meetings: search, summaries, action items, projects.",
+  "websiteUrl": "https://persistnotes.com",
+  "repository": {
+    "url": "https://github.com/Controlled/persist-notes-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@persistnotes/mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "type": "named",
+          "name": "--notes-dir",
+          "description": "Folder with your Persist Notes meeting notes (optional if the Persist Notes app is installed)",
+          "isRequired": false,
+          "format": "filepath"
+        }
+      ],
+      "environmentVariables": [
+        {
+          "name": "PERSIST_NOTES_DIR",
+          "description": "Alternative to --notes-dir: folder with your Persist Notes meeting notes",
+          "isRequired": false,
+          "format": "filepath"
+        }
+      ]
+    }
+  ]
+}
