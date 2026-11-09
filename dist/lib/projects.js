@@ -219,7 +219,63 @@ function moveNote(root, file, projectName) {
   return dest;
 }
 
+// ---------- Excluir (0.16.2) ----------
+// Nada é apagado de vez: tudo vai para a Lixeira do sistema (trash = shell.trashItem no app).
+
+// Reuniões (.md) que estão direto numa pasta (sem _synthesis.md, _group.md…).
+const meetingFiles = dir => {
+  try { return fs.readdirSync(dir).filter(f => f.toLowerCase().endsWith('.md') && !f.startsWith('_')).map(f => path.join(dir, f)); }
+  catch (_) { return []; }
+};
+
+// O que uma reunião leva para a Lixeira: o .md, os áudios guardados e a pasta de anexos (fica fora do projeto).
+function noteTrashItems(root, file) {
+  const items = [file, ...notes.audioFilesFor(file)];
+  const att = attachments.dirFor(root, file);
+  if (fs.existsSync(att)) items.push(att);
+  return items;
+}
+
+// Para o modal: { kind: 'group'|'leaf', name, label, dir, children: [sub-projetos], files: [reuniões], noteCount }.
+function deleteInfo(root, name) {
+  const g = findGroup(root, name);
+  if (g) {
+    const leaves = listProjects(root).filter(p => p.parent === g.name);
+    // Reuniões soltas na pasta do grupo (raras, mas possíveis à mão) entram também.
+    const files = [...meetingFiles(g.dir), ...leaves.flatMap(p => meetingFiles(p.dir))];
+    return { kind: 'group', name: g.name, label: g.name, dir: g.dir, children: leaves.map(p => p.name), files, noteCount: files.length };
+  }
+  const p = findProject(root, name);
+  if (!p) throw new Error(t('notes.projectNotFound', { name }));
+  const files = meetingFiles(p.dir);
+  return { kind: 'leaf', name: p.name, label: p.label, dir: p.dir, children: [], files, noteCount: files.length };
+}
+
+// mode 'move': as reuniões vão para "Sem projeto" (raiz) com áudios e anexos; depois a pasta (síntese e o que
+// sobrou) vai para a Lixeira. mode 'all': a pasta inteira e os anexos das reuniões vão para a Lixeira.
+// Em cascata para o projeto-pai. onMoved(src, dest) avisa o app de cada reunião movida.
+async function deleteProject(root, name, { mode = 'move', trash, onMoved } = {}) {
+  if (typeof trash !== 'function') throw new Error('trash');
+  const info = deleteInfo(root, name);
+  const moved = [];
+  if (mode === 'move') {
+    for (const f of info.files) {
+      const dest = moveNote(root, f, '');
+      moved.push([f, dest]);
+      if (onMoved) onMoved(f, dest);
+    }
+  } else {
+    for (const f of info.files) {
+      const att = attachments.dirFor(root, f);
+      if (fs.existsSync(att)) await trash(att);
+    }
+  }
+  await trash(info.dir);
+  return { ...info, mode, moved };
+}
+
 module.exports = {
   SYNTHESIS_FILE, GROUP_FILE, synthesisFile, isProjectDirName, cleanProjectName, listProjects, listGroups, findProject, findGroup,
-  createProject, createProjectPath, createGroup, renameProject, renameGroup, moveProject, projectOf, moveNote, splitName
+  createProject, createProjectPath, createGroup, renameProject, renameGroup, moveProject, projectOf, moveNote, splitName,
+  deleteInfo, deleteProject, noteTrashItems, meetingFiles
 };

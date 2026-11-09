@@ -16,7 +16,8 @@
     "attachDirExists": "Já existe a pasta de anexos {dir}. Renomeie ou apague essa pasta e tente de novo.",
     "claudeFailed": "O Claude Code retornou erro (código {code}). {detail}\nConfira se você está logado: abra o Terminal, rode \"claude\" e faça login com sua conta.",
     "claudeSpawn": "Não foi possível executar o Claude Code: {error}",
-    "claudeBroken": "O Claude Code está instalado, mas não consegue ser executado (instalação incompleta). Abra o Terminal e reinstale com \"npm install -g @anthropic-ai/claude-code\"; depois rode \"claude\" uma vez e faça login.",
+    "claudeBroken": "O Claude Code está instalado, mas não consegue ser executado (instalação incompleta). Abra o PowerShell e reinstale com irm https://claude.ai/install.ps1 | iex; depois rode claude uma vez e faça login.",
+    "claudeBrokenMac": "O Claude Code está instalado, mas não consegue ser executado (instalação incompleta). Abra o Terminal e reinstale com curl -fsSL https://claude.ai/install.sh | bash; depois rode claude uma vez e faça login.",
     "claudeTimeout": "O Claude Code demorou demais para responder. Tente de novo em alguns minutos.",
     "emptyTitle": "O título não pode ficar vazio.",
     "imageEmpty": "A imagem colada está vazia.",
@@ -578,7 +579,37 @@
     "moveInto": "Para dentro de",
     "moveOk": "Mover",
     "topLevel": "Nenhum (nível principal)",
-    "renameGroupTitle": "Renomear projeto"
+    "renameGroupTitle": "Renomear projeto",
+    "ctxDelete": "Excluir…",
+    "ctxOpenDir": "Abrir pasta",
+    "ctxNewSub": "Novo sub-projeto",
+    "delete": "Excluir…",
+    "deleteOk": "Excluir",
+    "deleteTitle": "Excluir o sub-projeto “{name}”?",
+    "deleteGroupTitle": "Excluir o projeto “{name}”?",
+    "deleteSummary": "Este sub-projeto tem {meetings}.",
+    "deleteGroupSummary": "Este projeto tem {subs} e {meetings}.",
+    "subCount": {
+      "one": "{count} sub-projeto",
+      "other": "{count} sub-projetos"
+    },
+    "deleteEmpty": "Está vazio: nenhuma reunião será afetada.",
+    "deleteMove": "Mover as reuniões para “Sem projeto” e excluir o sub-projeto",
+    "deleteMoveGroup": "Mover as reuniões para “Sem projeto” e excluir o projeto e os sub-projetos",
+    "deleteAll": {
+      "one": "Excluir tudo, incluindo {count} reunião",
+      "other": "Excluir tudo, incluindo {count} reuniões"
+    },
+    "deleteTypeName": "Digite “{name}” para confirmar",
+    "deleteTrashHint": "Os arquivos vão para a Lixeira e podem ser recuperados.",
+    "deleteBusy": "Não dá para excluir agora: uma gravação ou um processamento em andamento usa este projeto. Encerre a gravação e espere o processamento terminar.",
+    "deleteConfirmMismatch": "O nome digitado não confere. Digite o nome exato para excluir tudo.",
+    "deleted": "“{name}” foi para a Lixeira.",
+    "deletedMoved": {
+      "one": "“{name}” foi para a Lixeira; {count} reunião ficou em “Sem projeto”.",
+      "other": "“{name}” foi para a Lixeira; {count} reuniões ficaram em “Sem projeto”."
+    },
+    "trashMeeting": "Excluir reunião (vai para a Lixeira)"
   },
   "ask": {
     "title": "Perguntar às reuniões",

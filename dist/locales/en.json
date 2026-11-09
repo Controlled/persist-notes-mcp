@@ -16,7 +16,8 @@
     "attachDirExists": "The attachments folder {dir} already exists. Rename or delete that folder and try again.",
     "claudeFailed": "Claude Code returned an error (code {code}). {detail}\nCheck that you are signed in: open Terminal, run \"claude\" and sign in with your account.",
     "claudeSpawn": "Could not run Claude Code: {error}",
-    "claudeBroken": "Claude Code is installed but cannot run (incomplete installation). Open a terminal and reinstall with \"npm install -g @anthropic-ai/claude-code\", then run \"claude\" once and sign in.",
+    "claudeBroken": "Claude Code is installed but cannot run (incomplete installation). Open PowerShell and reinstall with irm https://claude.ai/install.ps1 | iex; then run claude once and sign in.",
+    "claudeBrokenMac": "Claude Code is installed but cannot run (incomplete installation). Open Terminal and reinstall with curl -fsSL https://claude.ai/install.sh | bash; then run claude once and sign in.",
     "claudeTimeout": "Claude Code took too long to respond. Try again in a few minutes.",
     "emptyTitle": "The title can’t be empty.",
     "imageEmpty": "The pasted image is empty.",
@@ -578,7 +579,37 @@
     "moveInto": "Into",
     "moveOk": "Move",
     "topLevel": "None (top level)",
-    "renameGroupTitle": "Rename project"
+    "renameGroupTitle": "Rename project",
+    "ctxDelete": "Delete…",
+    "ctxOpenDir": "Open folder",
+    "ctxNewSub": "New sub-project",
+    "delete": "Delete…",
+    "deleteOk": "Delete",
+    "deleteTitle": "Delete the sub-project “{name}”?",
+    "deleteGroupTitle": "Delete the project “{name}”?",
+    "deleteSummary": "This sub-project has {meetings}.",
+    "deleteGroupSummary": "This project has {subs} and {meetings}.",
+    "subCount": {
+      "one": "{count} sub-project",
+      "other": "{count} sub-projects"
+    },
+    "deleteEmpty": "It is empty: no meetings will be affected.",
+    "deleteMove": "Move the meetings to “No project” and delete the sub-project",
+    "deleteMoveGroup": "Move the meetings to “No project” and delete the project and its sub-projects",
+    "deleteAll": {
+      "one": "Delete everything, including {count} meeting",
+      "other": "Delete everything, including {count} meetings"
+    },
+    "deleteTypeName": "Type “{name}” to confirm",
+    "deleteTrashHint": "The files go to the Trash and can be recovered.",
+    "deleteBusy": "You can’t delete this now: a recording or processing in progress uses this project. Stop the recording and wait for processing to finish.",
+    "deleteConfirmMismatch": "The name you typed doesn’t match. Type the exact name to delete everything.",
+    "deleted": "“{name}” was moved to the Trash.",
+    "deletedMoved": {
+      "one": "“{name}” was moved to the Trash; {count} meeting is now in “No project”.",
+      "other": "“{name}” was moved to the Trash; {count} meetings are now in “No project”."
+    },
+    "trashMeeting": "Delete meeting (moves to the Trash)"
   },
   "ask": {
     "title": "Ask your meetings",
