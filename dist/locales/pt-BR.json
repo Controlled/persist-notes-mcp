@@ -16,6 +16,7 @@
     "attachDirExists": "Já existe a pasta de anexos {dir}. Renomeie ou apague essa pasta e tente de novo.",
     "claudeFailed": "O Claude Code retornou erro (código {code}). {detail}\nConfira se você está logado: abra o Terminal, rode \"claude\" e faça login com sua conta.",
     "claudeSpawn": "Não foi possível executar o Claude Code: {error}",
+    "claudeBroken": "O Claude Code está instalado, mas não consegue ser executado (instalação incompleta). Abra o Terminal e reinstale com \"npm install -g @anthropic-ai/claude-code\"; depois rode \"claude\" uma vez e faça login.",
     "claudeTimeout": "O Claude Code demorou demais para responder. Tente de novo em alguns minutos.",
     "emptyTitle": "O título não pode ficar vazio.",
     "imageEmpty": "A imagem colada está vazia.",

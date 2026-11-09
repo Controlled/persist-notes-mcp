@@ -16,6 +16,7 @@
     "attachDirExists": "The attachments folder {dir} already exists. Rename or delete that folder and try again.",
     "claudeFailed": "Claude Code returned an error (code {code}). {detail}\nCheck that you are signed in: open Terminal, run \"claude\" and sign in with your account.",
     "claudeSpawn": "Could not run Claude Code: {error}",
+    "claudeBroken": "Claude Code is installed but cannot run (incomplete installation). Open a terminal and reinstall with \"npm install -g @anthropic-ai/claude-code\", then run \"claude\" once and sign in.",
     "claudeTimeout": "Claude Code took too long to respond. Try again in a few minutes.",
     "emptyTitle": "The title can’t be empty.",
     "imageEmpty": "The pasted image is empty.",
