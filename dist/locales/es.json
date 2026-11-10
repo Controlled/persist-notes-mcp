@@ -929,5 +929,11 @@
     "pick": "Elegir PNG…",
     "none": "No elegiste ningún logo.",
     "hint": "Aparece en la parte superior de los PDF exportados. Función de Pro; en el plan Gratis, los PDF llevan la marca discreta de Persist Notes."
+  },
+  "embed": {
+    "position": "{n} de {total}",
+    "prev": "Reunión anterior (⌘⇧[ o Ctrl+Shift+[)",
+    "next": "Reunión siguiente (⌘⇧] o Ctrl+Shift+])",
+    "backTitle": "Volver a la lista (Esc)"
   }
 }
