@@ -96,6 +96,7 @@
     },
     "labelsOffer": "Usar os rótulos em {language} ({me} / {others})?",
     "labelsOfferDetail": "Vale para as próximas gravações. As reuniões já gravadas continuam com os rótulos atuais.",
+    "signedNotice": "Esta versão foi assinada pela Controlled Technology. O macOS vai pedir de novo as permissões de microfone e de áudio do sistema.",
     "labelsUse": "Usar",
     "labelsKeep": "Manter os atuais",
     "meeting": {

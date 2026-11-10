@@ -96,6 +96,7 @@
     },
     "labelsOffer": "Use the {language} labels ({me} / {others})?",
     "labelsOfferDetail": "Applies to new recordings. Meetings already recorded keep their current labels.",
+    "signedNotice": "This version is signed by Controlled Technology. macOS will ask again for microphone and system audio permissions.",
     "labelsUse": "Use",
     "labelsKeep": "Keep current",
     "meeting": {

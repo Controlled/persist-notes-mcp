@@ -96,6 +96,7 @@
     },
     "labelsOffer": "¿Usar las etiquetas en {language} ({me} / {others})?",
     "labelsOfferDetail": "Se aplica a las próximas grabaciones. Las reuniones ya grabadas mantienen sus etiquetas actuales.",
+    "signedNotice": "Esta versión fue firmada por Controlled Technology. macOS volverá a pedir los permisos de micrófono y de audio del sistema.",
     "labelsUse": "Usar",
     "labelsKeep": "Mantener las actuales",
     "meeting": {
