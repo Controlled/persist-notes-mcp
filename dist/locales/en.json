@@ -174,9 +174,8 @@
     "updateApp": "Update Persist Notes and try again."
   },
   "errors": {
-    "whisperMissing": "whisper-cli not found. Set it up in Settings → Transcription.",
     "modelMissing": "Whisper model not downloaded. Set it up in Settings → Transcription.",
-    "claudeMissing": "Claude Code wasn't found to {task}. Install Claude Code, sign in, and check Settings → Summary.",
+    "claudeMissing": "To {task}, the app uses your Claude subscription through Claude Code, which is not installed on this computer yet. In Settings → Summary, click Install and then Sign in.",
     "claudeTask": {
       "summary": "generate the summary (the transcript is already saved)",
       "synthesis": "update the project synthesis",
@@ -312,7 +311,7 @@
     "actions": "Actions",
     "newRecording": "New recording",
     "search": "Search",
-    "ask": "Ask AI",
+    "ask": "Ask your meetings",
     "projects": "Projects",
     "newProject": "New project or sub-project",
     "meetings": "Meetings",
@@ -658,7 +657,7 @@
     "enable": "Turn on…",
     "disableAll": "Delete everything and turn off",
     "whisper": "Local transcription",
-    "whisperProgram": "whisper-cli program",
+    "whisperProgram": "Local transcription",
     "autoDetect": "Detect automatically",
     "model": "Model",
     "spokenLang": "Spoken language",
@@ -687,9 +686,6 @@
     "found": "found",
     "foundVersion": "found · {version}",
     "notFound": "not found",
-    "whisperUsing": "Using <code>{path}</code> (whisper.cpp)",
-    "whisperMac": "Install whisper.cpp from Terminal with <code>brew install whisper-cpp</code> and click Save.",
-    "whisperWin": "Download <b>whisper-bin-x64.zip</b> from the whisper.cpp releases page on GitHub, extract it, and point to <code>whisper-cli.exe</code>.",
     "modelInUse": "in use",
     "modelDownloaded": "downloaded",
     "modelNotDownloaded": "not downloaded",
@@ -698,7 +694,6 @@
     "permNative": "The computer's sound uses the <b>System Audio Recording Only</b> permission (Privacy & Security → Screen & System Audio Recording). If you open Persist Notes from the terminal (<code>npm start</code>), the <b>terminal app</b> (Terminal, iTerm, VS Code…) is the one that needs the permission.",
     "openPrivacy": "Open privacy settings",
     "permOld": "On this macOS, the computer's sound requires the <b>Screen & System Audio Recording</b> permission. The system asks on the first recording.",
-    "needWhisper": "install whisper-cli",
     "needModel": "download a transcription model",
     "needClaude": "install and sign in to Claude Code (for summaries)",
     "firstRun": "Almost ready to start:",
@@ -727,7 +722,9 @@
     "micDefault": "System default",
     "micUnnamed": "Unnamed microphone",
     "micDisconnected": "{name} (disconnected)",
-    "micDeviceHint": "If the chosen microphone isn’t connected, Persist Notes records with the system default and lets you know."
+    "micDeviceHint": "If the chosen microphone isn’t connected, Persist Notes records with the system default and lets you know.",
+    "whisperBuiltin": "Built into the app (whisper.cpp {version}). Nothing to install.",
+    "whisperSystem": "Using the system whisper-cli ({path}) because the built-in one did not work on this computer."
   },
   "voice": {
     "status": "Turned on {date}.",
@@ -935,5 +932,49 @@
     "prev": "Previous meeting (⌘⇧[ or Ctrl+Shift+[)",
     "next": "Next meeting (⌘⇧] or Ctrl+Shift+])",
     "backTitle": "Back to the list (Esc)"
+  },
+  "prep": {
+    "title": "Getting Persist Notes ready",
+    "lead": "On first launch, the app sets everything up to transcribe meetings on this computer. It takes a few minutes, depending on your connection.",
+    "ready": "Ready",
+    "problem": "Needs attention",
+    "retry": "Try again",
+    "continue": "Continue",
+    "wait": "Persist Notes continues as soon as local transcription and the model are ready.",
+    "whisper": {
+      "title": "Local transcription",
+      "waiting": "Waiting for the model",
+      "testing": "Checking…",
+      "errMissing": "The transcription program is missing from the app. Download and reinstall Persist Notes from the website.",
+      "errTest": "The transcription program did not work on this computer. Click Try again; if it keeps failing, download and reinstall Persist Notes from the website."
+    },
+    "model": {
+      "title": "Transcription model (~550 MB)",
+      "starting": "Starting…",
+      "pause": "Pause",
+      "resume": "Resume download",
+      "paused": "Paused",
+      "verifying": "Checking the file…",
+      "sizes": "{done} of {total} MB",
+      "speed": "{n} MB/s",
+      "eta": "about {time} left",
+      "seconds": "{n} s",
+      "minutes": "{n} min",
+      "hours": "{h} h {m} min",
+      "errOffline": "No internet connection. Check your network and click Try again: the download resumes where it stopped.",
+      "errServer": "The model server did not respond. Try again in a few minutes: the download resumes where it stopped.",
+      "errHash": "The downloaded file was damaged and has been discarded. Click Try again."
+    },
+    "claude": {
+      "title": "Claude Code (for summaries and Ask)",
+      "notFound": "Not found",
+      "why": "Summaries and Ask use your Claude subscription, through Claude Code installed on this computer. Recording and transcription work without it.",
+      "install": "Install",
+      "login": "Sign in",
+      "later": "Do this later",
+      "termInstall": "Installing Claude Code with the official Anthropic command...",
+      "termAfterInstall": "Done. Go back to Persist Notes and click Sign in.",
+      "termLogin": "Opening Claude Code. Sign in with your Claude account, then go back to Persist Notes."
+    }
   }
 }

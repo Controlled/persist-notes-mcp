@@ -174,9 +174,8 @@
     "updateApp": "Atualize o Persist Notes e tente de novo."
   },
   "errors": {
-    "whisperMissing": "whisper-cli não encontrado. Configure em Configurações → Transcrição.",
     "modelMissing": "Modelo do Whisper não baixado. Configure em Configurações → Transcrição.",
-    "claudeMissing": "O Claude Code não foi encontrado para {task}. Instale o Claude Code, faça login e confira em Configurações → Resumo.",
+    "claudeMissing": "Para {task}, o app usa a sua assinatura Claude pelo Claude Code, que ainda não está instalado neste computador. Em Configurações → Resumo, clique em Instalar e depois em Fazer login.",
     "claudeTask": {
       "summary": "gerar o resumo (a transcrição já está salva)",
       "synthesis": "atualizar a síntese do projeto",
@@ -658,7 +657,7 @@
     "enable": "Ativar…",
     "disableAll": "Apagar tudo e desativar",
     "whisper": "Transcrição local",
-    "whisperProgram": "Programa whisper-cli",
+    "whisperProgram": "Transcrição local",
     "autoDetect": "Detectar automaticamente",
     "model": "Modelo",
     "spokenLang": "Idioma falado",
@@ -687,9 +686,6 @@
     "found": "encontrado",
     "foundVersion": "encontrado · {version}",
     "notFound": "não encontrado",
-    "whisperUsing": "Usando <code>{path}</code> (whisper.cpp)",
-    "whisperMac": "Instale o whisper.cpp pelo Terminal com <code>brew install whisper-cpp</code> e clique em Salvar.",
-    "whisperWin": "Baixe o <b>whisper-bin-x64.zip</b> na página de releases do whisper.cpp no GitHub, extraia e aponte para o <code>whisper-cli.exe</code>.",
     "modelInUse": "em uso",
     "modelDownloaded": "baixado",
     "modelNotDownloaded": "não baixado",
@@ -698,7 +694,6 @@
     "permNative": "O som do computador usa a permissão <b>Somente Gravação de Áudio do Sistema</b> (Privacidade e Segurança → Gravação de Tela e Áudio do Sistema). Se você abre o Persist Notes pelo terminal (<code>npm start</code>), quem precisa da permissão é o <b>app de terminal</b> (Terminal, iTerm, VS Code…).",
     "openPrivacy": "Abrir ajustes de privacidade",
     "permOld": "Neste macOS, o som do computador exige a permissão <b>Gravação de Tela e Áudio do Sistema</b>. O sistema pede na primeira gravação.",
-    "needWhisper": "instalar o whisper-cli",
     "needModel": "baixar um modelo de transcrição",
     "needClaude": "instalar e logar no Claude Code (para os resumos)",
     "firstRun": "Falta pouco para começar:",
@@ -727,7 +722,9 @@
     "micDefault": "Padrão do sistema",
     "micUnnamed": "Microfone sem nome",
     "micDisconnected": "{name} (desconectado)",
-    "micDeviceHint": "Se o microfone escolhido não estiver conectado, o Persist Notes grava com o padrão do sistema e avisa."
+    "micDeviceHint": "Se o microfone escolhido não estiver conectado, o Persist Notes grava com o padrão do sistema e avisa.",
+    "whisperBuiltin": "Embutida no app (whisper.cpp {version}). Nada para instalar.",
+    "whisperSystem": "Usando o whisper-cli do sistema ({path}), porque o embutido não funcionou neste computador."
   },
   "voice": {
     "status": "Ativado em {date}.",
@@ -935,5 +932,49 @@
     "prev": "Reunião anterior (⌘⇧[ ou Ctrl+Shift+[)",
     "next": "Próxima reunião (⌘⇧] ou Ctrl+Shift+])",
     "backTitle": "Voltar à lista (Esc)"
+  },
+  "prep": {
+    "title": "Preparando o Persist Notes",
+    "lead": "Na primeira abertura, o app deixa tudo pronto para transcrever as reuniões neste computador. Leva alguns minutos, conforme a sua conexão.",
+    "ready": "Pronto",
+    "problem": "Precisa de atenção",
+    "retry": "Tentar de novo",
+    "continue": "Continuar",
+    "wait": "O Persist Notes continua assim que a transcrição local e o modelo estiverem prontos.",
+    "whisper": {
+      "title": "Transcrição local",
+      "waiting": "Aguardando o modelo",
+      "testing": "Verificando…",
+      "errMissing": "O programa de transcrição não está no app. Baixe e instale o Persist Notes de novo pelo site.",
+      "errTest": "O programa de transcrição não funcionou neste computador. Clique em Tentar de novo; se continuar, baixe e instale o Persist Notes de novo pelo site."
+    },
+    "model": {
+      "title": "Modelo de transcrição (~550 MB)",
+      "starting": "Iniciando…",
+      "pause": "Pausar",
+      "resume": "Continuar o download",
+      "paused": "Pausado",
+      "verifying": "Conferindo o arquivo…",
+      "sizes": "{done} de {total} MB",
+      "speed": "{n} MB/s",
+      "eta": "cerca de {time}",
+      "seconds": "{n} s",
+      "minutes": "{n} min",
+      "hours": "{h} h {m} min",
+      "errOffline": "Sem conexão com a internet. Confira a rede e clique em Tentar de novo: o download continua de onde parou.",
+      "errServer": "O servidor do modelo não respondeu. Tente de novo em alguns minutos: o download continua de onde parou.",
+      "errHash": "O arquivo baixado veio com defeito e foi descartado. Clique em Tentar de novo."
+    },
+    "claude": {
+      "title": "Claude Code (para resumos e Perguntar)",
+      "notFound": "Não encontrado",
+      "why": "Os resumos e o Perguntar usam a sua assinatura Claude, pelo Claude Code instalado neste computador. Gravar e transcrever funcionam sem ele.",
+      "install": "Instalar",
+      "login": "Fazer login",
+      "later": "Fazer isso depois",
+      "termInstall": "Instalando o Claude Code com o comando oficial da Anthropic...",
+      "termAfterInstall": "Pronto. Volte ao Persist Notes e clique em Fazer login.",
+      "termLogin": "Abrindo o Claude Code. Faça login com a sua conta Claude e depois volte ao Persist Notes."
+    }
   }
 }
