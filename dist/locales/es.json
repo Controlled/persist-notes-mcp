@@ -459,7 +459,6 @@
   },
   "actions": {
     "title": "Acciones",
-    "titleProject": "Acciones · {project}",
     "collapseAll": "Contraer todos",
     "expandAll": "Expandir todos",
     "groupBy": "Agrupar por",
@@ -549,7 +548,6 @@
     "openDir": "Abrir carpeta",
     "tabSynth": "Síntesis",
     "tabNotes": "Reuniones",
-    "tabActionsTitle": "Abre la pantalla Acciones con este proyecto",
     "proText": "En el plan Gratis, la síntesis y las acciones funcionan en los 5 primeros proyectos que creaste. Las reuniones de este proyecto siguen aquí, normalmente.",
     "synthUpdated": "síntesis actualizada {date}",
     "noSynth": "Este proyecto todavía no tiene síntesis. Haz clic en <b>Rehacer desde cero</b> para que Claude escriba la primera a partir de los resúmenes.",
@@ -609,7 +607,8 @@
       "one": "“{name}” se movió a la Papelera; {count} reunión quedó en “Sin proyecto”.",
       "other": "“{name}” se movió a la Papelera; {count} reuniones quedaron en “Sin proyecto”."
     },
-    "trashMeeting": "Eliminar reunión (va a la Papelera)"
+    "trashMeeting": "Eliminar reunión (va a la Papelera)",
+    "notesCount": "Reuniones · {count}"
   },
   "ask": {
     "title": "Preguntar a las reuniones",
@@ -618,7 +617,8 @@
     "submit": "Preguntar",
     "allMeetings": "Todas las reuniones",
     "projectScope": "Proyecto: {name}",
-    "searching": "Buscando en las reuniones y preguntando a Claude…"
+    "searching": "Buscando en las reuniones y preguntando a Claude…",
+    "history": "Preguntas anteriores"
   },
   "jobs": {
     "openNote": "Abrir la nota",

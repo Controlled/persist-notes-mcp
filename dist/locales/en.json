@@ -459,7 +459,6 @@
   },
   "actions": {
     "title": "Actions",
-    "titleProject": "Actions · {project}",
     "collapseAll": "Collapse all",
     "expandAll": "Expand all",
     "groupBy": "Group by",
@@ -549,7 +548,6 @@
     "openDir": "Open folder",
     "tabSynth": "Synthesis",
     "tabNotes": "Meetings",
-    "tabActionsTitle": "Opens the Actions screen with this project",
     "proText": "On the Free plan, synthesis and actions work in the first 5 projects you created. This project's meetings stay here as usual.",
     "synthUpdated": "synthesis updated {date}",
     "noSynth": "This project doesn't have a synthesis yet. Click <b>Rebuild from scratch</b> so Claude writes the first one from the summaries.",
@@ -609,7 +607,8 @@
       "one": "“{name}” was moved to the Trash; {count} meeting is now in “No project”.",
       "other": "“{name}” was moved to the Trash; {count} meetings are now in “No project”."
     },
-    "trashMeeting": "Delete meeting (moves to the Trash)"
+    "trashMeeting": "Delete meeting (moves to the Trash)",
+    "notesCount": "Meetings · {count}"
   },
   "ask": {
     "title": "Ask your meetings",
@@ -618,7 +617,8 @@
     "submit": "Ask",
     "allMeetings": "All meetings",
     "projectScope": "Project: {name}",
-    "searching": "Searching your meetings and asking Claude…"
+    "searching": "Searching your meetings and asking Claude…",
+    "history": "Earlier questions"
   },
   "jobs": {
     "openNote": "Open the note",
