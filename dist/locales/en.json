@@ -417,45 +417,128 @@
     "guests": "Calendar guests: {list}",
     "renamed": "{from} is now {to}."
   },
-  "home": {
+  "dash": {
     "title": "Home",
-    "welcomeTitle": "Your next meeting can become knowledge.",
-    "welcomeText": "Click <b>New recording</b> when the meeting starts. Persist Notes records your microphone and the computer's sound, transcribes everything right here on your computer, and asks Claude for a summary with decisions and next steps.",
-    "welcomeFiles": "Each meeting becomes a <code>.md</code> file in your notes folder.",
-    "attention": "Needs attention",
-    "allActions": "See all actions →",
-    "periodMeetings": "Meetings in this period",
-    "pendingActions": {
-      "one": "{count} pending action",
-      "other": "{count} pending actions"
+    "subLead": "Your Persist Notes usage",
+    "lastDays": {
+      "one": "last day",
+      "other": "last {count} days"
     },
-    "periodSummary": "Period summary",
-    "summarizing": {
-      "one": "Summarizing {count} meeting with Claude…",
-      "other": "Summarizing {count} meetings with Claude…"
+    "fromTo": "{from} to {to}",
+    "ofTotal": "of {total}",
+    "today": "Today",
+    "direct": "Directly in the project",
+    "noMatch": "Nothing found",
+    "seeAll": "See all ({count})",
+    "showTop": "Show only the top 8",
+    "period": {
+      "7d": "7 days",
+      "30d": "30 days",
+      "90d": "90 days",
+      "custom": "Period…",
+      "apply": "Apply"
     },
-    "noMeetings": "No meetings in this period.",
-    "tip": {
-      "one": "Claude reads the summary of the {count} meeting (never the transcripts) and writes an overview: what moved forward, what got stuck, and what needs attention.",
-      "other": "Claude reads the summaries of the {count} meetings (never the transcripts) and writes an overview: what moved forward, what got stuck, and what needs attention."
+    "kpi": {
+      "time": "Time in meetings",
+      "timeFoot": "{meetings} · {avg} on average",
+      "subs": "Sub-projects with meetings",
+      "subsWithout": {
+        "one": "{count} without meetings in the period",
+        "other": "{count} without meetings in the period"
+      },
+      "noSubs": "No sub-projects yet",
+      "pending": "Open actions",
+      "pendingFoot": "from the period's meetings",
+      "pendingOpen": "Open in Actions"
     },
-    "tipLeftOut": {
-      "one": "{count} meeting without a summary is left out.",
-      "other": "{count} meetings without a summary are left out."
+    "rhythm": {
+      "title": "Your meeting rhythm",
+      "window": "Window {start}–{end} ({utc})",
+      "inMeeting": "In a meeting",
+      "noMeeting": "No meeting",
+      "prev": "Previous week",
+      "next": "Next week",
+      "weekOf": "Week {n} of {m}",
+      "inMeetingTime": "{time} in meetings",
+      "thisWeek": "Go to this week",
+      "totals": "Total · meetings"
     },
-    "tipNone": "The meetings in this period don't have summaries yet. Generate the summaries to summarize the period.",
-    "noPeriodSummary": "No summary for this period",
-    "summarize": "Summarize period",
-    "generatedAt": "Generated {when}",
-    "collapse": "Collapse",
-    "readMore": "Read more",
-    "stale": {
-      "one": "Out of date: {count} meeting changed after this summary.",
-      "other": "Out of date: {count} meetings changed after this summary."
+    "strip": {
+      "hint": "Click a day to open its week · the light line marks the open week",
+      "less": "Less",
+      "more": "More"
     },
-    "hide": "Hide",
-    "showAnyway": "Show anyway",
-    "copied": "Period summary copied as Markdown."
+    "window": {
+      "title": "Time window",
+      "start": "Start",
+      "end": "End",
+      "tz": "Time zone",
+      "system": "System time zone ({tz})",
+      "reset": "Restore default ({start}–{end} · {utc})"
+    },
+    "hours": {
+      "title": "Hours by project",
+      "sub": "The 8 projects with the most recorded hours in the period",
+      "subsOf": "{n} of {total} sub-projects",
+      "footOthers": "{shown} of {total} projects · the other {others} add up to {time}",
+      "foot": "{shown} of {total} projects",
+      "all": "See all projects"
+    },
+    "actions": {
+      "title": "Actions by sub-project",
+      "sub": "Open and done, from the period's meetings",
+      "open": "Open",
+      "done": "Done",
+      "search": "Search sub-projects",
+      "tip": "{open} open · {done} done",
+      "others": "Others {count}",
+      "foot": "Top {shown} of {total} sub-projects with meetings · {hidden} without meetings hidden",
+      "showing": "Showing {shown} of {total} sub-projects · {hidden} without meetings hidden"
+    },
+    "talk": {
+      "title": "How much you talk",
+      "sub": "Your share of the speaking time, by sub-project · the 8 with the most meeting time",
+      "me": "You",
+      "others": "Participants",
+      "half": "Half the time",
+      "all": "All meetings",
+      "allSub": "period average",
+      "noSpeech": "No speech in the transcript",
+      "tip": "You {me} ({mePct}) · Participants {others} ({othersPct})"
+    },
+    "page": {
+      "back": "← Back to Home",
+      "title": "Hours by project",
+      "subLead": "All projects and sub-projects",
+      "search": "Search projects or sub-projects",
+      "sortBy": "Sort by",
+      "hours": "Hours",
+      "meetings": "Meetings",
+      "name": "Name",
+      "expandAll": "Expand all",
+      "collapseAll": "Collapse all",
+      "projWith": "Projects with meetings",
+      "colName": "Project / sub-project",
+      "colBar": "Hours in the period",
+      "colSubs": "Sub-projects",
+      "colPct": "% of total",
+      "subsOf": "{n} of {total}",
+      "subsWithout": {
+        "one": "{count} sub-project without meetings in the period",
+        "other": "{count} sub-projects without meetings in the period"
+      }
+    },
+    "empty": {
+      "period": "No meetings in the period",
+      "record": "New recording",
+      "kpiTime": "Your first meeting shows up here",
+      "kpiSubs": "Organize meetings into projects",
+      "kpiActions": "They come from each meeting's summary",
+      "rhythm": "Record a meeting to see when you usually meet.",
+      "hours": "Hours per project show up here after your first recording.",
+      "actions": "Open and done actions for each sub-project show up here.",
+      "talk": "See how much you talk in meetings, from your microphone."
+    }
   },
   "actions": {
     "title": "Actions",
@@ -887,39 +970,6 @@
     "revoke": "Revoke",
     "revokeConfirm": "Revoke the link? Anyone with the address will no longer see the summary.",
     "revoked": "Link revoked."
-  },
-  "month": {
-    "open": "Your month in meetings",
-    "title": "Your month in meetings",
-    "pick": "Month",
-    "portrait": "Portrait · 1080 × 1350",
-    "landscape": "Landscape · 1200 × 630",
-    "hours": "in meetings",
-    "meetings": {
-      "one": "meeting",
-      "other": "meetings"
-    },
-    "projects": {
-      "one": "active project",
-      "other": "active projects"
-    },
-    "actions": {
-      "one": "action completed",
-      "other": "actions completed"
-    },
-    "longest": "Longest meeting",
-    "busiest": "Busiest day",
-    "busiestValue": {
-      "one": "{day} · {count} meeting",
-      "other": "{day} · {count} meetings"
-    },
-    "made": "Made with Persist Notes · persistnotes.com",
-    "save": "Save image",
-    "copy": "Copy",
-    "saved": "Image saved.",
-    "copied": "Image copied.",
-    "ready": "Your month in meetings for {month} is ready.",
-    "view": "View"
   },
   "exportCfg": {
     "title": "Export",

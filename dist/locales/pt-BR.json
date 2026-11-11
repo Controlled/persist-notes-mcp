@@ -417,45 +417,128 @@
     "guests": "Convidados da agenda: {list}",
     "renamed": "{from} agora é {to}."
   },
-  "home": {
+  "dash": {
     "title": "Início",
-    "welcomeTitle": "Sua próxima reunião pode virar conhecimento.",
-    "welcomeText": "Clique em <b>Nova gravação</b> quando a reunião começar. O Persist Notes grava seu microfone e o som do computador, transcreve tudo aqui no seu computador e pede ao Claude um resumo com decisões e próximos passos.",
-    "welcomeFiles": "Cada reunião vira um arquivo <code>.md</code> na sua pasta de notas.",
-    "attention": "Atenção agora",
-    "allActions": "Ver todas as ações →",
-    "periodMeetings": "Reuniões do período",
-    "pendingActions": {
-      "one": "{count} ação pendente",
-      "other": "{count} ações pendentes"
+    "subLead": "Seu uso do Persist Notes",
+    "lastDays": {
+      "one": "último dia",
+      "other": "últimos {count} dias"
     },
-    "periodSummary": "Resumo do período",
-    "summarizing": {
-      "one": "Resumindo {count} reunião com o Claude…",
-      "other": "Resumindo {count} reuniões com o Claude…"
+    "fromTo": "{from} a {to}",
+    "ofTotal": "de {total}",
+    "today": "Hoje",
+    "direct": "Direto no projeto",
+    "noMatch": "Nada encontrado",
+    "seeAll": "Ver todos ({count})",
+    "showTop": "Mostrar só o top 8",
+    "period": {
+      "7d": "7 dias",
+      "30d": "30 dias",
+      "90d": "90 dias",
+      "custom": "Período…",
+      "apply": "Aplicar"
     },
-    "noMeetings": "Nenhuma reunião neste período.",
-    "tip": {
-      "one": "O Claude lê o resumo da {count} reunião (nunca as transcrições) e escreve um panorama: o que avançou, o que travou e o que pede atenção.",
-      "other": "O Claude lê os resumos das {count} reuniões (nunca as transcrições) e escreve um panorama: o que avançou, o que travou e o que pede atenção."
+    "kpi": {
+      "time": "Tempo em reunião",
+      "timeFoot": "{meetings} · média de {avg}",
+      "subs": "Sub-projetos com reunião",
+      "subsWithout": {
+        "one": "{count} sem reunião no período",
+        "other": "{count} sem reunião no período"
+      },
+      "noSubs": "Nenhum sub-projeto criado",
+      "pending": "Ações pendentes",
+      "pendingFoot": "das reuniões do período",
+      "pendingOpen": "Abrir na tela Ações"
     },
-    "tipLeftOut": {
-      "one": "{count} reunião sem resumo fica de fora.",
-      "other": "{count} reuniões sem resumo ficam de fora."
+    "rhythm": {
+      "title": "Seu ritmo de reuniões",
+      "window": "Janela {start}–{end} ({utc})",
+      "inMeeting": "Em reunião",
+      "noMeeting": "Sem reunião",
+      "prev": "Semana anterior",
+      "next": "Próxima semana",
+      "weekOf": "Semana {n} de {m}",
+      "inMeetingTime": "{time} em reunião",
+      "thisWeek": "Ir para esta semana",
+      "totals": "Total · reuniões"
     },
-    "tipNone": "As reuniões deste período ainda não têm resumo. Gere os resumos para poder resumir o período.",
-    "noPeriodSummary": "Nenhum resumo deste período",
-    "summarize": "Resumir período",
-    "generatedAt": "Gerado {when}",
-    "collapse": "Recolher",
-    "readMore": "Ler completo",
-    "stale": {
-      "one": "Desatualizado: {count} reunião mudou depois deste resumo.",
-      "other": "Desatualizado: {count} reuniões mudaram depois deste resumo."
+    "strip": {
+      "hint": "Clique num dia para abrir a semana · a linha clara marca a semana aberta",
+      "less": "Menos",
+      "more": "Mais"
     },
-    "hide": "Esconder",
-    "showAnyway": "Ver mesmo assim",
-    "copied": "Resumo do período copiado em Markdown."
+    "window": {
+      "title": "Janela de horários",
+      "start": "Início",
+      "end": "Fim",
+      "tz": "Fuso horário",
+      "system": "Fuso do sistema ({tz})",
+      "reset": "Restaurar padrão ({start}–{end} · {utc})"
+    },
+    "hours": {
+      "title": "Horas por projeto",
+      "sub": "Os 8 projetos com mais horas gravadas no período",
+      "subsOf": "{n} de {total} sub-projetos",
+      "footOthers": "{shown} de {total} projetos · outros {others} somam {time}",
+      "foot": "{shown} de {total} projetos",
+      "all": "Ver todos os projetos"
+    },
+    "actions": {
+      "title": "Ações por sub-projeto",
+      "sub": "Abertas e concluídas, das reuniões do período",
+      "open": "Abertas",
+      "done": "Concluídas",
+      "search": "Buscar sub-projeto",
+      "tip": "{open} abertas · {done} concluídas",
+      "others": "Outros {count}",
+      "foot": "Top {shown} de {total} sub-projetos com reunião · {hidden} sem reunião ocultos",
+      "showing": "Mostrando {shown} de {total} sub-projetos · {hidden} sem reunião ocultos"
+    },
+    "talk": {
+      "title": "Quanto você fala",
+      "sub": "Sua parte do tempo falado, por sub-projeto · os 8 com mais tempo de reunião",
+      "me": "Você",
+      "others": "Participantes",
+      "half": "Metade do tempo",
+      "all": "Todas as reuniões",
+      "allSub": "média do período",
+      "noSpeech": "Sem falas na transcrição",
+      "tip": "Você {me} ({mePct}) · Participantes {others} ({othersPct})"
+    },
+    "page": {
+      "back": "← Voltar ao Início",
+      "title": "Horas por projeto",
+      "subLead": "Todos os projetos e sub-projetos",
+      "search": "Buscar projeto ou sub-projeto",
+      "sortBy": "Ordenar por",
+      "hours": "Horas",
+      "meetings": "Reuniões",
+      "name": "Nome",
+      "expandAll": "Expandir todos",
+      "collapseAll": "Recolher todos",
+      "projWith": "Projetos com reunião",
+      "colName": "Projeto / sub-projeto",
+      "colBar": "Horas no período",
+      "colSubs": "Sub-projetos",
+      "colPct": "% total",
+      "subsOf": "{n} de {total}",
+      "subsWithout": {
+        "one": "{count} sub-projeto sem reunião no período",
+        "other": "{count} sub-projetos sem reunião no período"
+      }
+    },
+    "empty": {
+      "period": "Nenhuma reunião no período",
+      "record": "Nova gravação",
+      "kpiTime": "Sua primeira reunião aparece aqui",
+      "kpiSubs": "Organize as reuniões em projetos",
+      "kpiActions": "Saem do resumo de cada reunião",
+      "rhythm": "Grave uma reunião para ver em que horários você se reúne.",
+      "hours": "As horas de cada projeto aparecem aqui depois da primeira gravação.",
+      "actions": "As ações abertas e concluídas de cada sub-projeto aparecem aqui.",
+      "talk": "Aqui você vê quanto fala nas reuniões, pelo seu microfone."
+    }
   },
   "actions": {
     "title": "Ações",
@@ -887,39 +970,6 @@
     "revoke": "Revogar",
     "revokeConfirm": "Revogar o link? Quem tiver o endereço deixa de ver o resumo.",
     "revoked": "Link revogado."
-  },
-  "month": {
-    "open": "Seu mês em reuniões",
-    "title": "Seu mês em reuniões",
-    "pick": "Mês",
-    "portrait": "Retrato · 1080 × 1350",
-    "landscape": "Paisagem · 1200 × 630",
-    "hours": "em reuniões",
-    "meetings": {
-      "one": "reunião",
-      "other": "reuniões"
-    },
-    "projects": {
-      "one": "projeto ativo",
-      "other": "projetos ativos"
-    },
-    "actions": {
-      "one": "ação concluída",
-      "other": "ações concluídas"
-    },
-    "longest": "Maior reunião",
-    "busiest": "Dia mais cheio",
-    "busiestValue": {
-      "one": "{day} · {count} reunião",
-      "other": "{day} · {count} reuniões"
-    },
-    "made": "Feito com Persist Notes · persistnotes.com",
-    "save": "Salvar imagem",
-    "copy": "Copiar",
-    "saved": "Imagem salva.",
-    "copied": "Imagem copiada.",
-    "ready": "Seu mês em reuniões de {month} está pronto.",
-    "view": "Ver"
   },
   "exportCfg": {
     "title": "Exportação",
