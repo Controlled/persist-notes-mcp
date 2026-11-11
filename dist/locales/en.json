@@ -537,6 +537,23 @@
       "hours": "Hours per project show up here after your first recording.",
       "actions": "Open and done actions for each sub-project show up here.",
       "talk": "See how much you talk in meetings, from your microphone."
+    },
+    "actsPage": {
+      "title": "Actions by sub-project",
+      "subLead": "Open and completed actions for each sub-project",
+      "open": "Open",
+      "done": "Completed",
+      "total": "Total",
+      "colBar": "Actions in period",
+      "kpiOpen": "Open actions",
+      "kpiDone": "Completed",
+      "kpiSubs": "Sub-projects with actions",
+      "kpiMeetings": "Meetings with actions",
+      "subsWithout": {
+        "one": "{count} sub-project with no actions in this period",
+        "other": "{count} sub-projects with no actions in this period"
+      },
+      "empty": "No actions in this period"
     }
   },
   "actions": {

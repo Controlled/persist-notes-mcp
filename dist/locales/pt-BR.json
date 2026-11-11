@@ -537,6 +537,23 @@
       "hours": "As horas de cada projeto aparecem aqui depois da primeira gravação.",
       "actions": "As ações abertas e concluídas de cada sub-projeto aparecem aqui.",
       "talk": "Aqui você vê quanto fala nas reuniões, pelo seu microfone."
+    },
+    "actsPage": {
+      "title": "Ações por sub-projeto",
+      "subLead": "Ações abertas e concluídas de cada sub-projeto",
+      "open": "Abertas",
+      "done": "Concluídas",
+      "total": "Total",
+      "colBar": "Ações no período",
+      "kpiOpen": "Ações abertas",
+      "kpiDone": "Concluídas",
+      "kpiSubs": "Sub-projetos com ações",
+      "kpiMeetings": "Reuniões com ações",
+      "subsWithout": {
+        "one": "{count} sub-projeto sem ações no período",
+        "other": "{count} sub-projetos sem ações no período"
+      },
+      "empty": "Nenhuma ação no período"
     }
   },
   "actions": {
