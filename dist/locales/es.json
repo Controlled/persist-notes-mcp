@@ -489,7 +489,6 @@
       "sub": "Abiertas y completadas, de las reuniones del período",
       "open": "Abiertas",
       "done": "Completadas",
-      "search": "Buscar subproyecto",
       "tip": "{open} abiertas · {done} completadas",
       "others": "Otros {count}",
       "foot": "Top {shown} de {total} subproyectos con reuniones · {hidden} sin reuniones ocultos",

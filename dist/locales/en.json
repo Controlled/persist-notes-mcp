@@ -489,7 +489,6 @@
       "sub": "Open and done, from the period's meetings",
       "open": "Open",
       "done": "Done",
-      "search": "Search sub-projects",
       "tip": "{open} open · {done} done",
       "others": "Others {count}",
       "foot": "Top {shown} of {total} sub-projects with meetings · {hidden} without meetings hidden",
