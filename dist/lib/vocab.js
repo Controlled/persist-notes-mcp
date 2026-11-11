@@ -28,6 +28,8 @@ const SECTIONS = {
   decisions: { pt: 'Decisões', en: 'Decisions', es: 'Decisiones' },
   nextSteps: { pt: 'Próximos passos', en: 'Next steps', es: 'Próximos pasos' },
   openQuestions: { pt: 'Perguntas em aberto', en: 'Open questions', es: 'Preguntas abiertas' },
+  // 0.20.0 (#2596): trechos que o usuário marcou durante a gravação ("> ⚑ marker 00:31:05" na transcrição)
+  markedMoments: { pt: 'Momentos marcados', en: 'Marked moments', es: 'Momentos marcados' },
   annotations: { pt: 'Anotações', en: 'Notes', es: 'Notas' },
   transcript: { pt: 'Transcrição', en: 'Transcript', es: 'Transcripción' },
   // Síntese do projeto
