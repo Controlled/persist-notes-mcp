@@ -1,0 +1,20 @@
+{
+  "title": "Record my voice",
+  "intro": "The app will record about 15 seconds of you reading a short text and store a <b>profile of your voice</b> (a set of numbers that represents the timbre). With it, the app recognizes you when your voice shows up in the computer audio and doesn't create an extra \"Person\".",
+  "itemBio": "<b>Biometric data</b> (under privacy laws such as Brazil’s LGPD and the GDPR): it stays on this computer only, in the app's data folder. It never goes to Claude, to the <code>.md</code> files, or to any server.",
+  "itemDelete": "You can delete the profile at any time in Settings → Recording.",
+  "readHint": "Read in your normal voice, as in a meeting:",
+  "readText": "Good morning, everyone. Let's start with today's agenda: first the status of this week's deliverables, then the project risks, and finally everyone's next steps. If anyone has an urgent topic, feel free to bring it up now, before we move on.",
+  "preparing": "Getting the microphone ready…",
+  "agree": "I agree, record",
+  "badgeSaved": "saved",
+  "badgeNone": "not recorded",
+  "savedText": "Voice profile saved {when}, with the label \"{name}\".",
+  "noneText": "No profile recorded: the app uses your speech on the microphone in each recording.",
+  "again": "Record again",
+  "stopFirst": "Stop the recording before recording your voice.",
+  "deleted": "Your voice profile was deleted.",
+  "recording": "Recording… {sec} s",
+  "computing": "Computing the profile…",
+  "saved": "Your voice profile was saved on this computer."
+}

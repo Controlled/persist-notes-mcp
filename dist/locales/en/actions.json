@@ -1,0 +1,83 @@
+{
+  "title": "Actions",
+  "collapseAll": "Collapse all",
+  "expandAll": "Expand all",
+  "groupBy": "Group by",
+  "columns": "Columns",
+  "resetCols": "Reset widths",
+  "all": "All",
+  "status": "Status",
+  "pending": "Pending",
+  "doneFilter": "Done",
+  "allFem": "All",
+  "overdue": "Overdue",
+  "search": "Search actions",
+  "clearFilters": "Clear filters",
+  "markDone": "Mark as done",
+  "copySelected": "Copy selected",
+  "clearSel": "Clear selection",
+  "colFilter": "Column filter",
+  "countsPending": {
+    "one": "{count} pending of {total}",
+    "other": "{count} pending of {total}"
+  },
+  "mine": "Only mine ({name})",
+  "people": {
+    "one": "{count} person",
+    "other": "{count} people"
+  },
+  "sortBy": "Sort by {col}",
+  "filterCol": "Filter {col}",
+  "resizeTitle": "Drag to adjust the width · double-click to fit the content",
+  "selectAll": "Select all",
+  "emptyNone": "No meeting has next steps yet.",
+  "emptyAllDone": "No pending actions with these filters. 🎉",
+  "emptyFilters": "No actions with these filters.",
+  "groupPending": {
+    "one": "{count} pending",
+    "other": "{count} pending"
+  },
+  "groupOverdue": {
+    "one": "{count} overdue",
+    "other": "{count} overdue"
+  },
+  "selectGroup": "Select the group's actions",
+  "selectGroupTitle": "Select the group's visible actions",
+  "select": "Select",
+  "markPending": "Mark as pending",
+  "markDoneOne": "Mark as done",
+  "selected": {
+    "one": "{count} selected",
+    "other": "{count} selected"
+  },
+  "noDue": "No due date",
+  "dueTitle": "Due: {due}",
+  "dueTitleDate": "Due: {due} ({date})",
+  "overdueShort": "overdue",
+  "dueToday": "due today",
+  "dueOverdue": "Overdue",
+  "dueTodayFilter": "Today",
+  "dueWeek": "This week",
+  "dueNext7": "Next 7 days",
+  "anyDue": "Any due date",
+  "dueDate": "Date",
+  "dueFrom": "From",
+  "alreadyDone": "The selected actions are already done.",
+  "markedSome": {
+    "one": "{count} action marked.",
+    "other": "{count} actions marked."
+  },
+  "notMarked": {
+    "one": "{count} couldn't be marked: {error}",
+    "other": "{count} couldn't be marked: {error}"
+  },
+  "markedAll": {
+    "one": "{count} action marked as done.",
+    "other": "{count} actions marked as done."
+  },
+  "copiedN": {
+    "one": "{count} action copied as Markdown.",
+    "other": "{count} actions copied as Markdown."
+  },
+  "colsReset": "Column widths reset."
+}

@@ -1,0 +1,139 @@
+{
+  "title": "Inicio",
+  "subLead": "Tu uso de Persist Notes",
+  "lastDays": {
+    "one": "último día",
+    "other": "últimos {count} días"
+  },
+  "fromTo": "{from} a {to}",
+  "ofTotal": "de {total}",
+  "today": "Hoy",
+  "direct": "Directo en el proyecto",
+  "noMatch": "No se encontró nada",
+  "seeAll": "Ver todos ({count})",
+  "showTop": "Mostrar solo el top 8",
+  "period": {
+    "7d": "7 días",
+    "30d": "30 días",
+    "90d": "90 días",
+    "custom": "Período…",
+    "apply": "Aplicar"
+  },
+  "kpi": {
+    "time": "Tiempo en reuniones",
+    "timeFoot": "{meetings} · promedio de {avg}",
+    "subs": "Subproyectos con reuniones",
+    "subsWithout": {
+      "one": "{count} sin reuniones en el período",
+      "other": "{count} sin reuniones en el período"
+    },
+    "noSubs": "Todavía no hay subproyectos",
+    "pending": "Acciones pendientes",
+    "pendingFoot": "de las reuniones del período",
+    "pendingOpen": "Abrir en Acciones"
+  },
+  "rhythm": {
+    "title": "Tu ritmo de reuniones",
+    "window": "Franja {start}–{end} ({utc})",
+    "inMeeting": "En reunión",
+    "noMeeting": "Sin reunión",
+    "prev": "Semana anterior",
+    "next": "Semana siguiente",
+    "weekOf": "Semana {n} de {m}",
+    "inMeetingTime": "{time} en reuniones",
+    "thisWeek": "Ir a esta semana",
+    "totals": "Total · reuniones"
+  },
+  "strip": {
+    "hint": "Haz clic en un día para abrir su semana · la línea clara marca la semana abierta",
+    "less": "Menos",
+    "more": "Más"
+  },
+  "window": {
+    "title": "Franja horaria",
+    "start": "Inicio",
+    "end": "Fin",
+    "tz": "Zona horaria",
+    "system": "Zona del sistema ({tz})",
+    "reset": "Restaurar predeterminado ({start}–{end} · {utc})"
+  },
+  "hours": {
+    "title": "Horas por proyecto",
+    "sub": "Los 8 proyectos con más horas grabadas en el período",
+    "subsOf": "{n} de {total} subproyectos",
+    "footOthers": "{shown} de {total} proyectos · los otros {others} suman {time}",
+    "foot": "{shown} de {total} proyectos",
+    "all": "Ver todos los proyectos"
+  },
+  "actions": {
+    "title": "Acciones por subproyecto",
+    "sub": "Abiertas y completadas, de las reuniones del período",
+    "open": "Abiertas",
+    "done": "Completadas",
+    "tip": "{open} abiertas · {done} completadas",
+    "others": "Otros {count}",
+    "foot": "Top {shown} de {total} subproyectos con reuniones · {hidden} sin reuniones ocultos",
+    "showing": "Mostrando {shown} de {total} subproyectos · {hidden} sin reuniones ocultos"
+  },
+  "talk": {
+    "title": "Cuánto hablas",
+    "sub": "Tu parte del tiempo hablado, por subproyecto · los 8 con más tiempo de reunión",
+    "me": "Tú",
+    "others": "Participantes",
+    "half": "Mitad del tiempo",
+    "all": "Todas las reuniones",
+    "allSub": "promedio del período",
+    "noSpeech": "Sin habla en la transcripción",
+    "tip": "Tú {me} ({mePct}) · Participantes {others} ({othersPct})"
+  },
+  "page": {
+    "back": "← Volver al Inicio",
+    "title": "Horas por proyecto",
+    "subLead": "Todos los proyectos y subproyectos",
+    "search": "Buscar proyecto o subproyecto",
+    "sortBy": "Ordenar por",
+    "hours": "Horas",
+    "meetings": "Reuniones",
+    "name": "Nombre",
+    "expandAll": "Expandir todos",
+    "collapseAll": "Contraer todos",
+    "projWith": "Proyectos con reuniones",
+    "colName": "Proyecto / subproyecto",
+    "colBar": "Horas en el período",
+    "colSubs": "Subproyectos",
+    "colPct": "% del total",
+    "subsOf": "{n} de {total}",
+    "subsWithout": {
+      "one": "{count} subproyecto sin reuniones en el período",
+      "other": "{count} subproyectos sin reuniones en el período"
+    }
+  },
+  "empty": {
+    "period": "Ninguna reunión en el período",
+    "record": "Nueva grabación",
+    "kpiTime": "Tu primera reunión aparece aquí",
+    "kpiSubs": "Organiza las reuniones en proyectos",
+    "kpiActions": "Salen del resumen de cada reunión",
+    "rhythm": "Graba una reunión para ver en qué horarios te reúnes.",
+    "hours": "Las horas de cada proyecto aparecen aquí después de la primera grabación.",
+    "actions": "Las acciones abiertas y completadas de cada subproyecto aparecen aquí.",
+    "talk": "Aquí ves cuánto hablas en las reuniones, por tu micrófono."
+  },
+  "actsPage": {
+    "title": "Acciones por subproyecto",
+    "subLead": "Acciones abiertas y completadas de cada subproyecto",
+    "open": "Abiertas",
+    "done": "Completadas",
+    "total": "Total",
+    "colBar": "Acciones en el período",
+    "kpiOpen": "Acciones abiertas",
+    "kpiDone": "Completadas",
+    "kpiSubs": "Subproyectos con acciones",
+    "kpiMeetings": "Reuniones con acciones",
+    "subsWithout": {
+      "one": "{count} subproyecto sin acciones en el período",
+      "other": "{count} subproyectos sin acciones en el período"
+    },
+    "empty": "No hay acciones en el período"
+  }
+}

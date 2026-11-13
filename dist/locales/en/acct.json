@@ -1,0 +1,14 @@
+{
+  "courtesy": "complimentary",
+  "founder": "Founder",
+  "unlimited": "Unlimited",
+  "devUpTo": "· up to {max} on the {plan} plan",
+  "thisComputer": "This computer",
+  "usedOn": "last used {date}",
+  "computer": "Computer",
+  "remove": "Remove",
+  "removing": "Removing…",
+  "noOther": "No other computers.",
+  "removed": "Computer removed from your account.",
+  "signedOut": "You signed out. Persist Notes is in read-only mode."
+}

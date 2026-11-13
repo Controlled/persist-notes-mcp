@@ -1,0 +1,16 @@
+{
+  "status": "Turned on {date}.",
+  "peopleTitle": "People recognized by voice:",
+  "nobody": "Nobody registered yet: name the participants of a meeting (click \"Person 1\"…) and Persist Notes learns their voice.",
+  "deleted": "{name}'s voice print deleted.",
+  "enabled": "People recognition turned on.",
+  "disableConfirm": "Delete all voice prints and turn off recognition? The names already written in your meetings stay.",
+  "disabled": "Voice prints deleted.",
+  "consentIntro": "When you turn this on, Persist Notes creates a <b>voice print</b> (a set of numbers that represents the timbre) for each person you name in the transcripts, and uses these prints to recognize those people in upcoming meetings.",
+  "consentBio": "<b>Biometric data:</b> under privacy laws such as Brazil’s LGPD and the GDPR, a voice print is sensitive personal data.",
+  "consentLocal": "<b>On this computer only:</b> the prints stay in the app's data folder, outside the notes folder. They're never sent to Claude or to any server, and they don't go along if you sync or share the notes folder.",
+  "consentControl": "<b>You're in control:</b> in Settings you can see who's registered, delete one person, or delete everything. Turning it off deletes all prints (your own voice profile has its own Delete button).",
+  "consentWarn": "<b>Tell the participants:</b> you're responsible for informing the people being recorded and, when required, getting their consent.",
+  "consentAgree": "I have read and agree to the use of voice prints described above.",
+  "consentOk": "Turn on"
+}

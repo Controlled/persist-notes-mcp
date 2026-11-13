@@ -1,0 +1,11 @@
+{
+  "title": "Aparência",
+  "theme": "Tema",
+  "system": "Sistema",
+  "light": "Claro",
+  "dark": "Escuro",
+  "fontSize": "Tamanho da fonte",
+  "fontSmaller": "Diminuir fonte",
+  "fontLarger": "Aumentar fonte",
+  "fontReset": "Tamanho da fonte: {pct} (clique para voltar ao padrão)"
+}

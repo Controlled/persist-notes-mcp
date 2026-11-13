@@ -1,0 +1,16 @@
+{
+  "heading": "Título",
+  "bold": "Negrito (⌘B)",
+  "list": "Lista",
+  "task": "Tarefa",
+  "link": "Link (⌘K)",
+  "sampleText": "texto",
+  "saving": "Salvando…",
+  "notSaved": "Não salvou: {error}",
+  "saved": "Salvo",
+  "conflict": "Este trecho mudou no arquivo enquanto você editava.",
+  "keepMine": "Manter o meu",
+  "useDisk": "Usar o do arquivo",
+  "savingImage": "Salvando a imagem…",
+  "imageSaved": "Imagem salva"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Entre para começar",
+  "lead": "Digite seu e-mail e enviamos um código de 6 dígitos. Sem senha.",
+  "emailPh": "voce@empresa.com",
+  "email": "E-mail",
+  "send": "Enviar código",
+  "sending": "Enviando…",
+  "codeTitle": "Digite o código",
+  "codeLead": "Enviamos um código para <b>{email}</b>. Ele vale por 10 minutos.",
+  "codeAria": "Código de 6 dígitos",
+  "verify": "Entrar",
+  "verifying": "Entrando…",
+  "otherEmail": "Usar outro e-mail",
+  "resend": "Reenviar código",
+  "devicesTitle": "Limite de computadores",
+  "skip": "Continuar sem entrar (só leitura)",
+  "signedIn": "Pronto, você entrou como {email}.",
+  "devicesText": {
+    "one": "O plano {plan} permite {count} computador. Remova um dos computadores abaixo para usar o Persist Notes neste.",
+    "other": "O plano {plan} permite {count} computadores. Remova um dos computadores abaixo para usar o Persist Notes neste."
+  },
+  "freePlan": "Grátis",
+  "offline": "Sem conexão com o servidor. Confira a internet e tente de novo.",
+  "failed": "Não foi possível confirmar sua conta agora. Tente de novo em instantes.",
+  "notAvailable": "O login ainda não está disponível nesta versão."
+}

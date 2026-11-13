@@ -1,0 +1,44 @@
+{
+  "title": "Getting Persist Notes ready",
+  "lead": "On first launch, the app sets everything up to transcribe meetings on this computer. It takes a few minutes, depending on your connection.",
+  "ready": "Ready",
+  "problem": "Needs attention",
+  "retry": "Try again",
+  "continue": "Continue",
+  "wait": "Persist Notes continues as soon as local transcription and the model are ready.",
+  "whisper": {
+    "title": "Local transcription",
+    "waiting": "Waiting for the model",
+    "testing": "Checking…",
+    "errMissing": "The transcription program is missing from the app. Download and reinstall Persist Notes from the website.",
+    "errTest": "The transcription program did not work on this computer. Click Try again; if it keeps failing, download and reinstall Persist Notes from the website."
+  },
+  "model": {
+    "title": "Transcription model (~550 MB)",
+    "starting": "Starting…",
+    "pause": "Pause",
+    "resume": "Resume download",
+    "paused": "Paused",
+    "verifying": "Checking the file…",
+    "sizes": "{done} of {total} MB",
+    "speed": "{n} MB/s",
+    "eta": "about {time} left",
+    "seconds": "{n} s",
+    "minutes": "{n} min",
+    "hours": "{h} h {m} min",
+    "errOffline": "No internet connection. Check your network and click Try again: the download resumes where it stopped.",
+    "errServer": "The model server did not respond. Try again in a few minutes: the download resumes where it stopped.",
+    "errHash": "The downloaded file was damaged and has been discarded. Click Try again."
+  },
+  "claude": {
+    "title": "Claude Code (for summaries and Ask)",
+    "notFound": "Not found",
+    "why": "Summaries and Ask use your Claude subscription, through Claude Code installed on this computer. Recording and transcription work without it.",
+    "install": "Install",
+    "login": "Sign in",
+    "later": "Do this later",
+    "termInstall": "Installing Claude Code with the official Anthropic command...",
+    "termAfterInstall": "Done. Go back to Persist Notes and click Sign in.",
+    "termLogin": "Opening Claude Code. Sign in with your Claude account, then go back to Persist Notes."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "minutes": "{m} min",
+  "hoursMinutes": "{h} h {mm} min",
+  "hoursShort": "{h} h {mm}",
+  "hoursOnly": "{h} h"
+}

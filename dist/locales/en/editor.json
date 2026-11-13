@@ -1,0 +1,16 @@
+{
+  "heading": "Heading",
+  "bold": "Bold (⌘B)",
+  "list": "List",
+  "task": "Checkbox",
+  "link": "Link (⌘K)",
+  "sampleText": "text",
+  "saving": "Saving…",
+  "notSaved": "Not saved: {error}",
+  "saved": "Saved",
+  "conflict": "This section changed in the file while you were editing.",
+  "keepMine": "Keep mine",
+  "useDisk": "Use the file's version",
+  "savingImage": "Saving the image…",
+  "imageSaved": "Image saved"
+}

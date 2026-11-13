@@ -1,0 +1,26 @@
+{
+  "title": "Inicia sesión para empezar",
+  "lead": "Escribe tu correo y te enviamos un código de 6 dígitos. No hay contraseña.",
+  "emailPh": "tu@empresa.com",
+  "email": "Correo electrónico",
+  "send": "Enviar código",
+  "sending": "Enviando…",
+  "codeTitle": "Escribe el código",
+  "codeLead": "Enviamos un código a <b>{email}</b>. Vale por 10 minutos.",
+  "codeAria": "Código de 6 dígitos",
+  "verify": "Iniciar sesión",
+  "verifying": "Iniciando sesión…",
+  "otherEmail": "Usar otro correo",
+  "resend": "Reenviar código",
+  "devicesTitle": "Límite de computadoras",
+  "skip": "Seguir sin iniciar sesión (solo lectura)",
+  "signedIn": "Listo, iniciaste sesión como {email}.",
+  "devicesText": {
+    "one": "El plan {plan} permite {count} computadora. Quita una de las computadoras de abajo para usar Persist Notes en esta.",
+    "other": "El plan {plan} permite {count} computadoras. Quita una de las computadoras de abajo para usar Persist Notes en esta."
+  },
+  "freePlan": "Gratis",
+  "offline": "Sin conexión con el servidor. Revisa tu internet e intenta de nuevo.",
+  "failed": "No se pudo confirmar tu cuenta ahora. Intenta de nuevo en unos instantes.",
+  "notAvailable": "El inicio de sesión todavía no está disponible en esta versión."
+}

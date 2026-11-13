@@ -1,0 +1,44 @@
+{
+  "title": "Preparando o Persist Notes",
+  "lead": "Na primeira abertura, o app deixa tudo pronto para transcrever as reuniões neste computador. Leva alguns minutos, conforme a sua conexão.",
+  "ready": "Pronto",
+  "problem": "Precisa de atenção",
+  "retry": "Tentar de novo",
+  "continue": "Continuar",
+  "wait": "O Persist Notes continua assim que a transcrição local e o modelo estiverem prontos.",
+  "whisper": {
+    "title": "Transcrição local",
+    "waiting": "Aguardando o modelo",
+    "testing": "Verificando…",
+    "errMissing": "O programa de transcrição não está no app. Baixe e instale o Persist Notes de novo pelo site.",
+    "errTest": "O programa de transcrição não funcionou neste computador. Clique em Tentar de novo; se continuar, baixe e instale o Persist Notes de novo pelo site."
+  },
+  "model": {
+    "title": "Modelo de transcrição (~550 MB)",
+    "starting": "Iniciando…",
+    "pause": "Pausar",
+    "resume": "Continuar o download",
+    "paused": "Pausado",
+    "verifying": "Conferindo o arquivo…",
+    "sizes": "{done} de {total} MB",
+    "speed": "{n} MB/s",
+    "eta": "cerca de {time}",
+    "seconds": "{n} s",
+    "minutes": "{n} min",
+    "hours": "{h} h {m} min",
+    "errOffline": "Sem conexão com a internet. Confira a rede e clique em Tentar de novo: o download continua de onde parou.",
+    "errServer": "O servidor do modelo não respondeu. Tente de novo em alguns minutos: o download continua de onde parou.",
+    "errHash": "O arquivo baixado veio com defeito e foi descartado. Clique em Tentar de novo."
+  },
+  "claude": {
+    "title": "Claude Code (para resumos e Perguntar)",
+    "notFound": "Não encontrado",
+    "why": "Os resumos e o Perguntar usam a sua assinatura Claude, pelo Claude Code instalado neste computador. Gravar e transcrever funcionam sem ele.",
+    "install": "Instalar",
+    "login": "Fazer login",
+    "later": "Fazer isso depois",
+    "termInstall": "Instalando o Claude Code com o comando oficial da Anthropic...",
+    "termAfterInstall": "Pronto. Volte ao Persist Notes e clique em Fazer login.",
+    "termLogin": "Abrindo o Claude Code. Faça login com a sua conta Claude e depois volte ao Persist Notes."
+  }
+}

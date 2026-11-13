@@ -1,0 +1,14 @@
+{
+  "invalidEmail": "Digite um e-mail válido.",
+  "codeLength": "O código tem 6 dígitos.",
+  "invalidCode": "Código inválido ou vencido. Confira os 6 dígitos ou peça um código novo.",
+  "rateLimited": "Muitas tentativas em pouco tempo. Espere um minuto e tente de novo.",
+  "offline": "Sem conexão com o servidor. Confira a internet e tente de novo.",
+  "signInFailedDetail": "Não foi possível entrar: {detail}",
+  "signInFailed": "Não foi possível entrar agora. Tente de novo em instantes.",
+  "confirmFailed": "Não foi possível confirmar sua conta agora. Tente de novo em instantes.",
+  "signInToRemove": "Entre na sua conta para remover computadores.",
+  "removeFailed": "Não foi possível remover o computador agora. Tente de novo.",
+  "loginUnavailable": "O login ainda não está disponível nesta versão.",
+  "updateApp": "Atualize o Persist Notes e tente de novo."
+}

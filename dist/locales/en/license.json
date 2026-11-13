@@ -1,0 +1,40 @@
+{
+  "plans": {
+    "free": "Free",
+    "pro": "Pro",
+    "unlimited": "Pro Unlimited"
+  },
+  "renews": {
+    "today": "renews today",
+    "tomorrow": "renews tomorrow",
+    "inDays": "renews in {days} days"
+  },
+  "hoursRenew": {
+    "today": "Your hours renew today.",
+    "tomorrow": "Your hours renew tomorrow.",
+    "inDays": "Your hours renew in {days} days."
+  },
+  "meter": {
+    "hours": "{used} of {total}",
+    "projects": "{used} of {max} projects",
+    "short": "{used} / {total}"
+  },
+  "hoursWords": {
+    "unknown": "your hours",
+    "one": "your 1 hour",
+    "many": "your {hours} hours"
+  },
+  "blocked": {
+    "login": "Sign in to your account to record, import, summarize, and ask questions. Your meetings are still available to read.",
+    "update": "This version of Persist Notes is no longer supported. Update the app to record, import, summarize, and ask questions again.",
+    "expired": "Persist Notes hasn't been able to confirm your account for more than 14 days. Connect to the internet and try again.",
+    "deviceLimit": "This computer is over your plan's limit. In Settings → Account, remove another computer to use this one.",
+    "invalid": "We couldn't confirm your account on this computer. Sign out and sign in again in Settings → Account.",
+    "suspended": "Your account is suspended. Write to support@persistnotes.com.",
+    "hours": "You've used {hours} of recording this month.",
+    "default": "This feature isn't available right now."
+  },
+  "lowHours": "{left} of recording left this month ({renews}).",
+  "invalidToken": "The server returned an invalid license. Update Persist Notes.",
+  "proProject": "Pro feature: on the Free plan, synthesis and actions work in the first 5 projects you created. The meetings in this project are still available."
+}

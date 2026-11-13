@@ -1,0 +1,6 @@
+{
+  "position": "{n} de {total}",
+  "prev": "Reunião anterior (⌘⇧[ ou Ctrl+Shift+[)",
+  "next": "Próxima reunião (⌘⇧] ou Ctrl+Shift+])",
+  "backTitle": "Voltar à lista (Esc)"
+}

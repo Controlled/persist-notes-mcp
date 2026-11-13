@@ -1,0 +1,14 @@
+{
+  "courtesy": "cortesía",
+  "founder": "Fundador",
+  "unlimited": "Ilimitado",
+  "devUpTo": "· hasta {max} en el plan {plan}",
+  "thisComputer": "Esta computadora",
+  "usedOn": "último uso: {date}",
+  "computer": "Computadora",
+  "remove": "Quitar",
+  "removing": "Quitando…",
+  "noOther": "Ninguna otra computadora.",
+  "removed": "Computadora quitada de tu cuenta.",
+  "signedOut": "Cerraste sesión. Persist Notes está en modo lectura."
+}

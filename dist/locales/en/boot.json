@@ -1,0 +1,8 @@
+{
+  "loading": "Opening Persist Notes…",
+  "keychainHint": "If macOS asks for your password, it’s so Persist Notes can access your saved sign-in. Choose “Always Allow”.",
+  "errorTitle": "Persist Notes couldn’t open",
+  "errorText": "Reopen the app. If it keeps happening, download the latest version from the website. Your meetings stay in your notes folder.",
+  "relaunch": "Reopen",
+  "download": "Download from the website"
+}

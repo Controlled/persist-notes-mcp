@@ -1,0 +1,76 @@
+{
+  "modelMissing": "Whisper model not downloaded. Set it up in Settings → Transcription.",
+  "claudeMissing": "To {task}, the app uses your Claude subscription through Claude Code, which is not installed on this computer yet. In Settings → Summary, click Install and then Sign in.",
+  "claudeTask": {
+    "summary": "generate the summary (the transcript is already saved)",
+    "synthesis": "update the project synthesis",
+    "period": "summarize the period",
+    "ask": "answer questions",
+    "mcp": "add the MCP server"
+  },
+  "noteGone": "The note was deleted or moved out of the notes folder while the summary was being generated.",
+  "onlyMd": "Only .md files in the notes folder can be opened.",
+  "outsideNotes": "File outside the notes folder. Open the meeting from the Persist Notes list or change the folder in Settings → Files.",
+  "invalidSection": "Invalid section.",
+  "summaryFirst": "Generate the summary before editing it.",
+  "projectNotFoundOutside": "Project \"{name}\" not found. It may have been renamed or deleted outside the app.",
+  "projectNotFound": "Project \"{name}\" not found.",
+  "noteRecording": "This note is being recorded. Stop or discard the recording before deleting it.",
+  "speakerNameEmpty": "Enter a name for the person.",
+  "voices": {
+    "consent": "To turn this on, confirm that you've read and agree to the use of voiceprints.",
+    "selfConsent": "Confirm that you want to save your voice profile before recording.",
+    "selfConsentRequired": "Your voice profile can only be saved with your confirmation.",
+    "unavailable": "Voice recognition isn't available on this computer.",
+    "downloadFailed": "Couldn't download the voice models (~45 MB). Check your internet connection and try again.",
+    "tooLittleSpeech": "Not enough speech in the recording. Read the text in a normal voice, close to the microphone, and try again.",
+    "embedEmpty": "Couldn't calculate the voice profile. Try again.",
+    "embedFailed": "Failed to calculate the voice profile."
+  },
+  "diarization": {
+    "timeout": "Voice separation took too long and was canceled.",
+    "failed": "Failed to separate voices: {detail}",
+    "unknown": "unknown error",
+    "noReply": "Voice separation ended without a response (code {code}). {detail}"
+  },
+  "download": {
+    "offline": "No connection to download {file}. Check your internet connection and try again. ({detail})",
+    "http": "Download of {file} failed (HTTP {status}). Try again later.",
+    "incomplete": "The download of {file} was incomplete. Try again."
+  },
+  "whisper": {
+    "unknownModel": "Unknown model: {model}",
+    "downloadHttp": "Download failed (HTTP {status})",
+    "spawn": "Couldn't run whisper-cli: {detail}",
+    "exit": "whisper-cli exited with code {code}.\n{detail}"
+  },
+  "calendar": {
+    "notIcs": "the link didn't return an ICS calendar"
+  },
+  "mcp": {
+    "invalidDesktopJson": "The Claude Desktop configuration file has invalid JSON. Fix it (or delete it) and try again.",
+    "rejected": "Claude Code didn't accept the server: {detail} Use the manual command below."
+  },
+  "systemAudio": {
+    "missing": "System audio component not found: {path}",
+    "generic": "system audio error",
+    "exited": "system audio capture stopped (code {code})"
+  },
+  "updates": {
+    "noVersion": "latest-mac.yml has no version",
+    "serverStatus": "update server responded {status}",
+    "noMacFile": "update doesn't include the file for this Mac",
+    "checksum": "the downloaded file doesn't match (SHA-512)",
+    "noApp": "the update .zip doesn't contain the app"
+  },
+  "shareNoSummary": "Generate the summary before sharing.",
+  "share": {
+    "offline": "Can’t reach persistnotes.com. Check your internet connection and try again.",
+    "not_configured": "Share links aren’t available in this version. Update Persist Notes.",
+    "rate_limited": "You’ve reached the limit of 20 links per day. Try again tomorrow.",
+    "too_large": "The summary is too large for a link (over 64 KB). Use PDF or Word.",
+    "server": "Couldn’t finish that right now. Try again in a moment."
+  },
+  "noteEmpty": "The note is empty. Write in the notes before generating the summary.",
+  "outputSwitch": "Couldn't switch the sound output. Change it in the system sound settings."
+}

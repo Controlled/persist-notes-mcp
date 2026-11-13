@@ -1,0 +1,139 @@
+{
+  "title": "Home",
+  "subLead": "Your Persist Notes usage",
+  "lastDays": {
+    "one": "last day",
+    "other": "last {count} days"
+  },
+  "fromTo": "{from} to {to}",
+  "ofTotal": "of {total}",
+  "today": "Today",
+  "direct": "Directly in the project",
+  "noMatch": "Nothing found",
+  "seeAll": "See all ({count})",
+  "showTop": "Show only the top 8",
+  "period": {
+    "7d": "7 days",
+    "30d": "30 days",
+    "90d": "90 days",
+    "custom": "Period…",
+    "apply": "Apply"
+  },
+  "kpi": {
+    "time": "Time in meetings",
+    "timeFoot": "{meetings} · {avg} on average",
+    "subs": "Sub-projects with meetings",
+    "subsWithout": {
+      "one": "{count} without meetings in the period",
+      "other": "{count} without meetings in the period"
+    },
+    "noSubs": "No sub-projects yet",
+    "pending": "Open actions",
+    "pendingFoot": "from the period's meetings",
+    "pendingOpen": "Open in Actions"
+  },
+  "rhythm": {
+    "title": "Your meeting rhythm",
+    "window": "Window {start}–{end} ({utc})",
+    "inMeeting": "In a meeting",
+    "noMeeting": "No meeting",
+    "prev": "Previous week",
+    "next": "Next week",
+    "weekOf": "Week {n} of {m}",
+    "inMeetingTime": "{time} in meetings",
+    "thisWeek": "Go to this week",
+    "totals": "Total · meetings"
+  },
+  "strip": {
+    "hint": "Click a day to open its week · the light line marks the open week",
+    "less": "Less",
+    "more": "More"
+  },
+  "window": {
+    "title": "Time window",
+    "start": "Start",
+    "end": "End",
+    "tz": "Time zone",
+    "system": "System time zone ({tz})",
+    "reset": "Restore default ({start}–{end} · {utc})"
+  },
+  "hours": {
+    "title": "Hours by project",
+    "sub": "The 8 projects with the most recorded hours in the period",
+    "subsOf": "{n} of {total} sub-projects",
+    "footOthers": "{shown} of {total} projects · the other {others} add up to {time}",
+    "foot": "{shown} of {total} projects",
+    "all": "See all projects"
+  },
+  "actions": {
+    "title": "Actions by sub-project",
+    "sub": "Open and done, from the period's meetings",
+    "open": "Open",
+    "done": "Done",
+    "tip": "{open} open · {done} done",
+    "others": "Others {count}",
+    "foot": "Top {shown} of {total} sub-projects with meetings · {hidden} without meetings hidden",
+    "showing": "Showing {shown} of {total} sub-projects · {hidden} without meetings hidden"
+  },
+  "talk": {
+    "title": "How much you talk",
+    "sub": "Your share of the speaking time, by sub-project · the 8 with the most meeting time",
+    "me": "You",
+    "others": "Participants",
+    "half": "Half the time",
+    "all": "All meetings",
+    "allSub": "period average",
+    "noSpeech": "No speech in the transcript",
+    "tip": "You {me} ({mePct}) · Participants {others} ({othersPct})"
+  },
+  "page": {
+    "back": "← Back to Home",
+    "title": "Hours by project",
+    "subLead": "All projects and sub-projects",
+    "search": "Search projects or sub-projects",
+    "sortBy": "Sort by",
+    "hours": "Hours",
+    "meetings": "Meetings",
+    "name": "Name",
+    "expandAll": "Expand all",
+    "collapseAll": "Collapse all",
+    "projWith": "Projects with meetings",
+    "colName": "Project / sub-project",
+    "colBar": "Hours in the period",
+    "colSubs": "Sub-projects",
+    "colPct": "% of total",
+    "subsOf": "{n} of {total}",
+    "subsWithout": {
+      "one": "{count} sub-project without meetings in the period",
+      "other": "{count} sub-projects without meetings in the period"
+    }
+  },
+  "empty": {
+    "period": "No meetings in the period",
+    "record": "New recording",
+    "kpiTime": "Your first meeting shows up here",
+    "kpiSubs": "Organize meetings into projects",
+    "kpiActions": "They come from each meeting's summary",
+    "rhythm": "Record a meeting to see when you usually meet.",
+    "hours": "Hours per project show up here after your first recording.",
+    "actions": "Open and done actions for each sub-project show up here.",
+    "talk": "See how much you talk in meetings, from your microphone."
+  },
+  "actsPage": {
+    "title": "Actions by sub-project",
+    "subLead": "Open and completed actions for each sub-project",
+    "open": "Open",
+    "done": "Completed",
+    "total": "Total",
+    "colBar": "Actions in period",
+    "kpiOpen": "Open actions",
+    "kpiDone": "Completed",
+    "kpiSubs": "Sub-projects with actions",
+    "kpiMeetings": "Meetings with actions",
+    "subsWithout": {
+      "one": "{count} sub-project with no actions in this period",
+      "other": "{count} sub-projects with no actions in this period"
+    },
+    "empty": "No actions in this period"
+  }
+}

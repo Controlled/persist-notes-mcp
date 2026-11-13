@@ -1,0 +1,76 @@
+{
+  "modelMissing": "El modelo de Whisper no está descargado. Configúralo en Configuración → Transcripción.",
+  "claudeMissing": "Para {task}, la app usa tu suscripción de Claude mediante Claude Code, que aún no está instalado en esta computadora. En Configuración → Resumen, haz clic en Instalar y luego en Iniciar sesión.",
+  "claudeTask": {
+    "summary": "generar el resumen (la transcripción ya está guardada)",
+    "synthesis": "actualizar la síntesis del proyecto",
+    "period": "resumir el período",
+    "ask": "responder preguntas",
+    "mcp": "agregar el servidor MCP"
+  },
+  "noteGone": "La nota se eliminó o se movió fuera de la carpeta de notas mientras se generaba el resumen.",
+  "onlyMd": "Solo se pueden abrir archivos .md de la carpeta de notas.",
+  "outsideNotes": "Archivo fuera de la carpeta de notas. Abre la reunión desde la lista de Persist Notes o ajusta la carpeta en Configuración → Archivos.",
+  "invalidSection": "Sección no válida.",
+  "summaryFirst": "Genera el resumen antes de editarlo.",
+  "projectNotFoundOutside": "No se encontró el proyecto \"{name}\". Puede que se haya renombrado o eliminado fuera de la app.",
+  "projectNotFound": "No se encontró el proyecto \"{name}\".",
+  "noteRecording": "Esta nota se está grabando. Termina o descarta la grabación antes de eliminarla.",
+  "speakerNameEmpty": "Escribe un nombre para la persona.",
+  "voices": {
+    "consent": "Para activarlo, marca que leíste y aceptas el uso de las huellas de voz.",
+    "selfConsent": "Confirma que quieres guardar el perfil de tu voz antes de grabar.",
+    "selfConsentRequired": "El perfil de voz solo se puede guardar con tu confirmación.",
+    "unavailable": "El reconocimiento de voz no está disponible en esta computadora.",
+    "downloadFailed": "No se pudieron descargar los modelos de voz (~45 MB). Revisa tu conexión a internet e inténtalo de nuevo.",
+    "tooLittleSpeech": "Hay poca voz en la grabación. Lee el texto con voz normal, cerca del micrófono, e inténtalo de nuevo.",
+    "embedEmpty": "No se pudo calcular el perfil de voz. Inténtalo de nuevo.",
+    "embedFailed": "No se pudo calcular el perfil de voz."
+  },
+  "diarization": {
+    "timeout": "La separación de voces tardó demasiado y se canceló.",
+    "failed": "No se pudieron separar las voces: {detail}",
+    "unknown": "error desconocido",
+    "noReply": "La separación de voces terminó sin respuesta (código {code}). {detail}"
+  },
+  "download": {
+    "offline": "Sin conexión para descargar {file}. Revisa tu conexión a internet e inténtalo de nuevo. ({detail})",
+    "http": "Falló la descarga de {file} (HTTP {status}). Inténtalo de nuevo más tarde.",
+    "incomplete": "La descarga de {file} quedó incompleta. Inténtalo de nuevo."
+  },
+  "whisper": {
+    "unknownModel": "Modelo desconocido: {model}",
+    "downloadHttp": "Falló la descarga (HTTP {status})",
+    "spawn": "No se pudo ejecutar whisper-cli: {detail}",
+    "exit": "whisper-cli terminó con código {code}.\n{detail}"
+  },
+  "calendar": {
+    "notIcs": "el enlace no devolvió un calendario ICS"
+  },
+  "mcp": {
+    "invalidDesktopJson": "El archivo de configuración de Claude Desktop tiene JSON no válido. Corrígelo (o elimínalo) e inténtalo de nuevo.",
+    "rejected": "Claude Code no aceptó el servidor: {detail} Usa el comando manual de abajo."
+  },
+  "systemAudio": {
+    "missing": "No se encontró el componente de audio del sistema: {path}",
+    "generic": "error en el audio del sistema",
+    "exited": "la captura del audio del sistema terminó (código {code})"
+  },
+  "updates": {
+    "noVersion": "latest-mac.yml sin versión",
+    "serverStatus": "el servidor de actualizaciones respondió {status}",
+    "noMacFile": "la actualización no incluye el archivo para esta Mac",
+    "checksum": "el archivo descargado no coincide (SHA-512)",
+    "noApp": "el .zip de la actualización no contiene la app"
+  },
+  "shareNoSummary": "Genera el resumen antes de compartir.",
+  "share": {
+    "offline": "No hay conexión con persistnotes.com. Revisa tu internet e inténtalo de nuevo.",
+    "not_configured": "El enlace para compartir no está disponible en esta versión. Actualiza Persist Notes.",
+    "rate_limited": "Llegaste al límite de 20 enlaces por día. Inténtalo mañana.",
+    "too_large": "El resumen es demasiado grande para un enlace (más de 64 KB). Usa PDF o Word.",
+    "server": "No se pudo completar ahora. Inténtalo de nuevo en unos instantes."
+  },
+  "noteEmpty": "La nota está vacía. Escribe en las notas antes de generar el resumen.",
+  "outputSwitch": "No se pudo cambiar la salida de sonido. Cámbiala en la configuración de sonido del sistema."
+}

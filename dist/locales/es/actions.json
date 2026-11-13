@@ -1,0 +1,83 @@
+{
+  "title": "Acciones",
+  "collapseAll": "Contraer todos",
+  "expandAll": "Expandir todos",
+  "groupBy": "Agrupar por",
+  "columns": "Columnas",
+  "resetCols": "Restablecer anchos",
+  "all": "Todo",
+  "status": "Estado",
+  "pending": "Pendientes",
+  "doneFilter": "Completadas",
+  "allFem": "Todas",
+  "overdue": "Vencidas",
+  "search": "Buscar en las acciones",
+  "clearFilters": "Limpiar filtros",
+  "markDone": "Marcar como hechas",
+  "copySelected": "Copiar seleccionadas",
+  "clearSel": "Limpiar selección",
+  "colFilter": "Filtro de la columna",
+  "countsPending": {
+    "one": "{count} pendiente de {total}",
+    "other": "{count} pendientes de {total}"
+  },
+  "mine": "Solo las mías ({name})",
+  "people": {
+    "one": "{count} persona",
+    "other": "{count} personas"
+  },
+  "sortBy": "Ordenar por {col}",
+  "filterCol": "Filtrar {col}",
+  "resizeTitle": "Arrastra para ajustar el ancho · doble clic ajusta al contenido",
+  "selectAll": "Seleccionar todas",
+  "emptyNone": "Ninguna reunión tiene próximos pasos todavía.",
+  "emptyAllDone": "No hay acciones pendientes con estos filtros. 🎉",
+  "emptyFilters": "No hay acciones con estos filtros.",
+  "groupPending": {
+    "one": "{count} pendiente",
+    "other": "{count} pendientes"
+  },
+  "groupOverdue": {
+    "one": "{count} vencida",
+    "other": "{count} vencidas"
+  },
+  "selectGroup": "Seleccionar las acciones del grupo",
+  "selectGroupTitle": "Seleccionar las acciones visibles del grupo",
+  "select": "Seleccionar",
+  "markPending": "Marcar como pendiente",
+  "markDoneOne": "Marcar como hecha",
+  "selected": {
+    "one": "{count} seleccionada",
+    "other": "{count} seleccionadas"
+  },
+  "noDue": "Sin plazo",
+  "dueTitle": "Plazo: {due}",
+  "dueTitleDate": "Plazo: {due} ({date})",
+  "overdueShort": "vencida",
+  "dueToday": "vence hoy",
+  "dueOverdue": "Vencidas",
+  "dueTodayFilter": "Hoy",
+  "dueWeek": "Esta semana",
+  "dueNext7": "Próximos 7 días",
+  "anyDue": "Cualquier plazo",
+  "dueDate": "Fecha",
+  "dueFrom": "Desde",
+  "alreadyDone": "Las acciones seleccionadas ya están hechas.",
+  "markedSome": {
+    "one": "{count} acción marcada.",
+    "other": "{count} acciones marcadas."
+  },
+  "notMarked": {
+    "one": "{count} no se pudo marcar: {error}",
+    "other": "{count} no se pudieron marcar: {error}"
+  },
+  "markedAll": {
+    "one": "{count} acción marcada como hecha.",
+    "other": "{count} acciones marcadas como hechas."
+  },
+  "copiedN": {
+    "one": "{count} acción copiada en Markdown.",
+    "other": "{count} acciones copiadas en Markdown."
+  },
+  "colsReset": "Anchos de las columnas restablecidos."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Appearance",
+  "theme": "Theme",
+  "system": "System",
+  "light": "Light",
+  "dark": "Dark",
+  "fontSize": "Font size",
+  "fontSmaller": "Decrease font size",
+  "fontLarger": "Increase font size",
+  "fontReset": "Font size: {pct} (click to reset to default)"
+}

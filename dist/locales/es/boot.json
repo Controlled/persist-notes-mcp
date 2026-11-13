@@ -1,0 +1,8 @@
+{
+  "loading": "Abriendo Persist Notes…",
+  "keychainHint": "Si macOS te pide la contraseña, es para que Persist Notes acceda al inicio de sesión guardado. Elige “Permitir siempre”.",
+  "errorTitle": "Persist Notes no pudo abrirse",
+  "errorText": "Vuelve a abrir la app. Si sigue pasando, descarga la versión más reciente en el sitio. Tus reuniones siguen en la carpeta de notas.",
+  "relaunch": "Volver a abrir",
+  "download": "Descargar en el sitio"
+}

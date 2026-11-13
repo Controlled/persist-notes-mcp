@@ -1,0 +1,14 @@
+{
+  "invalidEmail": "Enter a valid email address.",
+  "codeLength": "The code has 6 digits.",
+  "invalidCode": "Invalid or expired code. Check the 6 digits or request a new code.",
+  "rateLimited": "Too many attempts in a short time. Wait a minute and try again.",
+  "offline": "Can't connect to the server. Check your internet connection and try again.",
+  "signInFailedDetail": "Couldn't sign in: {detail}",
+  "signInFailed": "Couldn't sign in right now. Try again in a moment.",
+  "confirmFailed": "Couldn't confirm your account right now. Try again in a moment.",
+  "signInToRemove": "Sign in to your account to remove computers.",
+  "removeFailed": "Couldn't remove the computer right now. Try again.",
+  "loginUnavailable": "Sign-in isn't available in this version yet.",
+  "updateApp": "Update Persist Notes and try again."
+}

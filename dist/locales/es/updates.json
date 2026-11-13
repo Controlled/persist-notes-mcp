@@ -1,0 +1,20 @@
+{
+  "checking": "Buscando actualizaciones…",
+  "downloading": "Descargando la versión {version}…",
+  "downloadingPct": "Descargando la versión {version} ({pct}%)…",
+  "ready": "Versión {version} lista: se instala cuando cierres la app.",
+  "current": "Versión {version}. Tienes la versión más reciente.",
+  "manual": "Versión {version} disponible. Mueve Persist Notes a la carpeta Aplicaciones para que se actualice solo, o descárgalo en el sitio.",
+  "error": "Versión {version}. No se pudo buscar actualizaciones ahora.",
+  "unsupported": "Versión {version}. La actualización automática funciona en la app instalada.",
+  "version": "Versión {version}.",
+  "restart": "Reiniciar y actualizar",
+  "check": "Buscar actualización",
+  "defaultMsg": "Esta versión de Persist Notes ya no es compatible. Actualiza para seguir grabando, importando, resumiendo y preguntando. Tus reuniones siguen disponibles para leer.",
+  "dlgReady": "La versión {version} ya se descargó.",
+  "dlgChecking": "Buscando la versión nueva…",
+  "dlgTitle": "Actualización necesaria",
+  "keepReading": "Seguir solo leyendo por ahora",
+  "site": "Descargar en el sitio",
+  "now": "Actualizar ahora"
+}

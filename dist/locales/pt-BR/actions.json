@@ -1,0 +1,83 @@
+{
+  "title": "Ações",
+  "collapseAll": "Recolher todos",
+  "expandAll": "Expandir todos",
+  "groupBy": "Agrupar por",
+  "columns": "Colunas",
+  "resetCols": "Redefinir larguras",
+  "all": "Tudo",
+  "status": "Status",
+  "pending": "Pendentes",
+  "doneFilter": "Concluídas",
+  "allFem": "Todas",
+  "overdue": "Vencidas",
+  "search": "Buscar nas ações",
+  "clearFilters": "Limpar filtros",
+  "markDone": "Marcar como feitas",
+  "copySelected": "Copiar selecionadas",
+  "clearSel": "Limpar seleção",
+  "colFilter": "Filtro da coluna",
+  "countsPending": {
+    "one": "{count} pendente de {total}",
+    "other": "{count} pendentes de {total}"
+  },
+  "mine": "Só as minhas ({name})",
+  "people": {
+    "one": "{count} pessoa",
+    "other": "{count} pessoas"
+  },
+  "sortBy": "Ordenar por {col}",
+  "filterCol": "Filtrar {col}",
+  "resizeTitle": "Arraste para ajustar a largura · duplo clique ajusta ao conteúdo",
+  "selectAll": "Selecionar todas",
+  "emptyNone": "Nenhuma reunião tem próximos passos ainda.",
+  "emptyAllDone": "Nenhuma ação pendente com estes filtros. 🎉",
+  "emptyFilters": "Nenhuma ação com estes filtros.",
+  "groupPending": {
+    "one": "{count} pendente",
+    "other": "{count} pendentes"
+  },
+  "groupOverdue": {
+    "one": "{count} vencida",
+    "other": "{count} vencidas"
+  },
+  "selectGroup": "Selecionar as ações do grupo",
+  "selectGroupTitle": "Selecionar as ações visíveis do grupo",
+  "select": "Selecionar",
+  "markPending": "Marcar como pendente",
+  "markDoneOne": "Marcar como feita",
+  "selected": {
+    "one": "{count} selecionada",
+    "other": "{count} selecionadas"
+  },
+  "noDue": "Sem prazo",
+  "dueTitle": "Prazo: {due}",
+  "dueTitleDate": "Prazo: {due} ({date})",
+  "overdueShort": "vencida",
+  "dueToday": "vence hoje",
+  "dueOverdue": "Vencidas",
+  "dueTodayFilter": "Hoje",
+  "dueWeek": "Esta semana",
+  "dueNext7": "Próximos 7 dias",
+  "anyDue": "Qualquer prazo",
+  "dueDate": "Data",
+  "dueFrom": "De",
+  "alreadyDone": "As ações selecionadas já estão feitas.",
+  "markedSome": {
+    "one": "{count} ação marcada.",
+    "other": "{count} ações marcadas."
+  },
+  "notMarked": {
+    "one": "{count} não pôde ser marcada(s): {error}",
+    "other": "{count} não puderam ser marcada(s): {error}"
+  },
+  "markedAll": {
+    "one": "{count} ação marcada como feita.",
+    "other": "{count} ações marcadas como feitas."
+  },
+  "copiedN": {
+    "one": "{count} ação copiada em Markdown.",
+    "other": "{count} ações copiadas em Markdown."
+  },
+  "colsReset": "Larguras das colunas redefinidas."
+}

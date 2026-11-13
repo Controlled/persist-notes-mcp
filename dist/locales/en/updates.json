@@ -1,0 +1,20 @@
+{
+  "checking": "Checking for updates…",
+  "downloading": "Downloading version {version}…",
+  "downloadingPct": "Downloading version {version} ({pct}%)…",
+  "ready": "Version {version} ready: it installs when you quit the app.",
+  "current": "Version {version}. You're on the latest version.",
+  "manual": "Version {version} available. Move Persist Notes to the Applications folder to update automatically, or download it from the website.",
+  "error": "Version {version}. Couldn't check for updates right now.",
+  "unsupported": "Version {version}. Automatic updates work in the installed app.",
+  "version": "Version {version}.",
+  "restart": "Restart and update",
+  "check": "Check for updates",
+  "defaultMsg": "This version of Persist Notes is no longer supported. Update to keep recording, importing, summarizing, and asking. Your meetings are still available to read.",
+  "dlgReady": "Version {version} has already been downloaded.",
+  "dlgChecking": "Looking for the new version…",
+  "dlgTitle": "Update required",
+  "keepReading": "Keep read-only for now",
+  "site": "Download from the website",
+  "now": "Update now"
+}

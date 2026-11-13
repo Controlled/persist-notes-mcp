@@ -1,0 +1,10 @@
+{
+  "title": "Preguntar a las reuniones",
+  "lead": "Claude responde con base en tus reuniones y cita de dónde sacó cada información. Solo se envían fragmentos de texto, nunca el audio.",
+  "placeholder": "Ej.: ¿Qué decidimos sobre el hosting del sitio?",
+  "submit": "Preguntar",
+  "allMeetings": "Todas las reuniones",
+  "projectScope": "Proyecto: {name}",
+  "searching": "Buscando en las reuniones y preguntando a Claude…",
+  "history": "Preguntas anteriores"
+}

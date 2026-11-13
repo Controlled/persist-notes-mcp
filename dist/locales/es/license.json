@@ -1,0 +1,40 @@
+{
+  "plans": {
+    "free": "Gratis",
+    "pro": "Pro",
+    "unlimited": "Pro Ilimitado"
+  },
+  "renews": {
+    "today": "se renueva hoy",
+    "tomorrow": "se renueva mañana",
+    "inDays": "se renueva en {days} días"
+  },
+  "hoursRenew": {
+    "today": "Las horas se renuevan hoy.",
+    "tomorrow": "Las horas se renuevan mañana.",
+    "inDays": "Las horas se renuevan en {days} días."
+  },
+  "meter": {
+    "hours": "{used} de {total}",
+    "projects": "{used} de {max} proyectos",
+    "short": "{used} / {total}"
+  },
+  "hoursWords": {
+    "unknown": "las horas",
+    "one": "la 1 hora",
+    "many": "las {hours} horas"
+  },
+  "blocked": {
+    "login": "Inicia sesión en tu cuenta para grabar, importar, resumir y preguntar. Tus reuniones siguen disponibles para lectura.",
+    "update": "Esta versión de Persist Notes ya no es compatible. Actualiza la app para volver a grabar, importar, resumir y preguntar.",
+    "expired": "Persist Notes lleva más de 14 días sin confirmar tu cuenta. Conéctate a internet e inténtalo de nuevo.",
+    "deviceLimit": "Esta computadora superó el límite de tu plan. En Configuración → Cuenta, quita otra computadora para usar esta.",
+    "invalid": "No se pudo confirmar tu cuenta en esta computadora. Cierra sesión y vuelve a iniciarla en Configuración → Cuenta.",
+    "suspended": "Tu cuenta está suspendida. Escribe a support@persistnotes.com.",
+    "hours": "Usaste {hours} de grabación de este mes.",
+    "default": "Esta función no está disponible ahora."
+  },
+  "lowHours": "Te queda {left} de grabación este mes ({renews}).",
+  "invalidToken": "El servidor devolvió una licencia no válida. Actualiza Persist Notes.",
+  "proProject": "Función de Pro: en el plan Gratis, la síntesis y las acciones funcionan en los primeros 5 proyectos que creaste. Las reuniones de este proyecto siguen disponibles."
+}

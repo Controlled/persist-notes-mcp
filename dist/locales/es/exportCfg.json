@@ -1,0 +1,7 @@
+{
+  "title": "Exportación",
+  "logo": "Logo en los PDF",
+  "pick": "Elegir PNG…",
+  "none": "No elegiste ningún logo.",
+  "hint": "Aparece en la parte superior de los PDF exportados. Función de Pro; en el plan Gratis, los PDF llevan la marca discreta de Persist Notes."
+}

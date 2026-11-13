@@ -1,0 +1,10 @@
+{
+  "title": "Ask your meetings",
+  "lead": "Claude answers based on your meetings and cites where each piece of information came from. Only text excerpts are sent, never the audio.",
+  "placeholder": "E.g.: What did we decide about hosting the website?",
+  "submit": "Ask",
+  "allMeetings": "All meetings",
+  "projectScope": "Project: {name}",
+  "searching": "Searching your meetings and asking Claude…",
+  "history": "Earlier questions"
+}

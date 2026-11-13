@@ -1,0 +1,16 @@
+{
+  "status": "Activado el {date}.",
+  "peopleTitle": "Personas reconocidas por la voz:",
+  "nobody": "Todavía no hay nadie registrado: ponles nombre a los participantes de una reunión (haz clic en \"Persona 1\"…) y Persist Notes aprende la voz.",
+  "deleted": "Huella de voz de {name} borrada.",
+  "enabled": "Reconocimiento de personas activado.",
+  "disableConfirm": "¿Borrar todas las huellas de voz y desactivar el reconocimiento? Los nombres ya escritos en las reuniones se mantienen.",
+  "disabled": "Huellas de voz borradas.",
+  "consentIntro": "Al activarlo, Persist Notes crea una <b>huella de voz</b> (un conjunto de números que representa el timbre) de cada persona a la que le pongas nombre en las transcripciones, y usa esas huellas para reconocer a esas personas en las próximas reuniones.",
+  "consentBio": "<b>Dato biométrico:</b> según leyes de privacidad como la LGPD de Brasil y el RGPD, la huella de voz es un dato personal sensible.",
+  "consentLocal": "<b>Solo en esta computadora:</b> las huellas se quedan en la carpeta de datos de la app, fuera de la carpeta de notas. Nunca se envían a Claude ni a ningún servidor, y no van incluidas si sincronizas o compartes la carpeta de notas.",
+  "consentControl": "<b>Tú tienes el control:</b> en Configuración ves quién está registrado, borras a una persona o borras todo. Desactivar borra todas las huellas (el perfil de tu propia voz tiene su propio botón Borrar).",
+  "consentWarn": "<b>Avisa a los participantes:</b> eres responsable de informar a las personas grabadas y, cuando se exija, obtener su consentimiento.",
+  "consentAgree": "Leí y acepto el uso de las huellas de voz descrito arriba.",
+  "consentOk": "Activar"
+}

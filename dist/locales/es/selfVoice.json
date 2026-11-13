@@ -1,0 +1,20 @@
+{
+  "title": "Grabar mi voz",
+  "intro": "La app va a grabar unos 15 segundos de ti leyendo un texto corto y guardar un <b>perfil de tu voz</b> (un conjunto de números que representa el timbre). Con él, la app te reconoce cuando tu voz aparece en el audio de la computadora y no crea una \"Persona\" de más.",
+  "itemBio": "<b>Dato biométrico</b> (según leyes de privacidad como la LGPD de Brasil y el RGPD): se queda solo en esta computadora, en la carpeta de datos de la app. Nunca va a Claude, a los archivos <code>.md</code> ni a ningún servidor.",
+  "itemDelete": "Puedes borrar el perfil en cualquier momento en Configuración → Grabación.",
+  "readHint": "Lee con tu voz normal, como en una reunión:",
+  "readText": "Buenos días a todos. Empecemos con la agenda de hoy: primero el estado de las entregas de la semana, luego los riesgos del proyecto y, al final, los próximos pasos de cada uno. Si alguien tiene un tema urgente, puede decirlo ahora, antes de seguir.",
+  "preparing": "Preparando el micrófono…",
+  "agree": "Acepto, grabar",
+  "badgeSaved": "guardada",
+  "badgeNone": "no grabada",
+  "savedText": "Perfil de voz guardado el {when}, con la etiqueta \"{name}\".",
+  "noneText": "Sin perfil grabado: la app usa lo que hablas en el micrófono en cada grabación.",
+  "again": "Grabar de nuevo",
+  "stopFirst": "Termina la grabación antes de grabar tu voz.",
+  "deleted": "Perfil de tu voz borrado.",
+  "recording": "Grabando… {sec} s",
+  "computing": "Calculando el perfil…",
+  "saved": "Perfil de tu voz guardado en esta computadora."
+}

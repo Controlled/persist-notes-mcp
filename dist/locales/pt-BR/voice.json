@@ -1,0 +1,16 @@
+{
+  "status": "Ativado em {date}.",
+  "peopleTitle": "Pessoas reconhecidas pela voz:",
+  "nobody": "Ninguém cadastrado ainda: dê nome aos participantes de uma reunião (clique em \"Pessoa 1\"…) e o Persist Notes aprende a voz.",
+  "deleted": "Impressão de voz de {name} apagada.",
+  "enabled": "Reconhecimento de pessoas ativado.",
+  "disableConfirm": "Apagar todas as impressões de voz e desativar o reconhecimento? Os nomes já escritos nas reuniões continuam.",
+  "disabled": "Impressões de voz apagadas.",
+  "consentIntro": "Ao ativar, o Persist Notes cria uma <b>impressão de voz</b> (um conjunto de números que representa o timbre) de cada pessoa a quem você der nome nas transcrições, e usa essas impressões para reconhecer essas pessoas nas próximas reuniões.",
+  "consentBio": "<b>Dado biométrico:</b> pela LGPD, impressão de voz é dado pessoal sensível.",
+  "consentLocal": "<b>Só neste computador:</b> as impressões ficam na pasta de dados do app, fora da pasta de notas. Nunca são enviadas ao Claude nem a qualquer servidor, e não vão junto se você sincronizar ou compartilhar a pasta de notas.",
+  "consentControl": "<b>Você controla:</b> em Configurações você vê quem está cadastrado, apaga uma pessoa ou apaga tudo. Desativar apaga todas as impressões (o perfil da sua própria voz tem o botão Apagar dele).",
+  "consentWarn": "<b>Avise os participantes:</b> você é responsável por informar as pessoas gravadas e, quando exigido, obter o consentimento delas.",
+  "consentAgree": "Li e concordo com o uso das impressões de voz descrito acima.",
+  "consentOk": "Ativar"
+}

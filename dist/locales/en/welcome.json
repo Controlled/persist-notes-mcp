@@ -1,0 +1,26 @@
+{
+  "title": "Sign in to get started",
+  "lead": "Enter your email and we'll send you a 6-digit code. No password needed.",
+  "emailPh": "you@company.com",
+  "email": "Email",
+  "send": "Send code",
+  "sending": "Sending…",
+  "codeTitle": "Enter the code",
+  "codeLead": "We sent a code to <b>{email}</b>. It's valid for 10 minutes.",
+  "codeAria": "6-digit code",
+  "verify": "Sign in",
+  "verifying": "Signing in…",
+  "otherEmail": "Use a different email",
+  "resend": "Resend code",
+  "devicesTitle": "Computer limit",
+  "skip": "Continue without signing in (read-only)",
+  "signedIn": "All set, you're signed in as {email}.",
+  "devicesText": {
+    "one": "The {plan} plan allows {count} computer. Remove one of the computers below to use Persist Notes on this one.",
+    "other": "The {plan} plan allows {count} computers. Remove one of the computers below to use Persist Notes on this one."
+  },
+  "freePlan": "Free",
+  "offline": "Can't reach the server. Check your internet connection and try again.",
+  "failed": "Couldn't confirm your account right now. Try again in a moment.",
+  "notAvailable": "Sign-in isn't available in this version yet."
+}
