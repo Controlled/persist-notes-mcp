@@ -1,0 +1,31 @@
+{
+  "title": "Tu carpeta de notas está sincronizada con {service}",
+  "titleOther": "Tu carpeta de notas está sincronizada por un servicio de sincronización",
+  "body": "Los audios de las reuniones se guardan en la carpeta audio/, dentro de la carpeta de notas, y {service} sube esos archivos a la nube. Persist Notes no envía audio, pero el servicio de sincronización sí. Las notas (.md) se siguen sincronizando normalmente.",
+  "bodyOther": "Los audios de las reuniones se guardan en la carpeta audio/, dentro de la carpeta de notas, y el servicio de sincronización sube esos archivos a la nube. Persist Notes no envía audio, pero el servicio de sincronización sí. Las notas (.md) se siguen sincronizando normalmente.",
+  "keepLocal": "Guardar el audio solo en este equipo",
+  "keepAsIs": "Dejar como está",
+  "service": {
+    "icloud": "iCloud Drive",
+    "onedrive": "OneDrive",
+    "dropbox": "Dropbox",
+    "gdrive": "Google Drive",
+    "other": "servicio de sincronización"
+  },
+  "location": "Dónde guardar el audio",
+  "locationNotes": "En la carpeta de notas (carpeta audio/)",
+  "locationLocal": "Solo en este equipo",
+  "movedLocal": {
+    "one": "{count} audio movido a este equipo.",
+    "other": "{count} audios movidos a este equipo."
+  },
+  "movedNotes": {
+    "one": "{count} audio movido a la carpeta de notas.",
+    "other": "{count} audios movidos a la carpeta de notas."
+  },
+  "failed": {
+    "one": "No se pudo mover {count} audio. Cierra los programas que estén usando ese archivo e inténtalo de nuevo.",
+    "other": "No se pudieron mover {count} audios. Cierra los programas que estén usando esos archivos e inténtalo de nuevo."
+  },
+  "busy": "No se pueden mover los audios ahora: hay una grabación o un procesamiento en curso. Espera a que termine e inténtalo de nuevo."
+}

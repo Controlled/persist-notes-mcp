@@ -13,7 +13,7 @@
   "updateNow": "Update now",
   "files": "Files",
   "notesDir": "Meetings folder (.md)",
-  "keepAudio": "Keep the audio (.wav) in an <code>audio/</code> subfolder",
+  "keepAudio": "Keep the meeting audio (.wav)",
   "recording": "Recording",
   "systemAudio": "Also capture the computer audio (participants on Teams, Meet, Zoom)",
   "myName": "Your name in the transcript",
@@ -109,5 +109,6 @@
   "autoStopDefault": "(default)",
   "autoStopOff": "Off",
   "meetingAutoStopHint": "Applies to recordings started from the meeting prompt. A recording you start yourself never stops on its own.",
-  "recordShortcutHint": "{key} records the detected meeting and, while recording, ends it, from any app; {mark} marks the moment. Otherwise the shortcut stays free for other apps."
+  "recordShortcutHint": "{key} records the detected meeting and, while recording, ends it, from any app; {mark} marks the moment. Otherwise the shortcut stays free for other apps.",
+  "sessionMemoryOnly": "This computer has no system keyring available (such as GNOME Keyring or KWallet), so your sign-in is kept only while Persist Notes is open. When you open the app again, sign in with the email code."
 }

@@ -30,5 +30,7 @@
   "resize": "Largura da barra lateral",
   "acctShortLogin": "Entrar",
   "acctShortUpdate": "Atualizar",
-  "acctShortAccount": "Ver conta"
+  "acctShortAccount": "Ver conta",
+  "toggleSubs": "Mostrar ou ocultar os sub-projetos de {name}",
+  "newSubIn": "Novo sub-projeto em {name}"
 }

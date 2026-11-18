@@ -12,7 +12,7 @@
   "days7": "7 dias",
   "days30": "30 dias",
   "noExpiry": "Sem expiração",
-  "warning": "Este resumo ficará acessível a quem tiver o link, em persistnotes.com. Nenhum áudio ou transcrição é enviado.",
+  "warning": "Este resumo ficará acessível a quem tiver o link, em persistnotes.com. Nenhum áudio é enviado.",
   "create": "Criar link e copiar",
   "proText": "Word, HTML para e-mail e links de 30 dias ou sem expiração são recursos do Pro.",
   "copied": "Texto copiado.",
@@ -26,5 +26,11 @@
   "activeNoExpiry": "Link ativo, sem expiração",
   "revoke": "Revogar",
   "revokeConfirm": "Revogar o link? Quem tiver o endereço deixa de ver o resumo.",
-  "revoked": "Link revogado."
+  "revoked": "Link revogado.",
+  "includeAlso": "Incluir também",
+  "optNotes": "Minhas anotações",
+  "optTranscript": "Transcrição",
+  "optNames": "Nomes dos participantes",
+  "optWarning": "O que você marcar acima fica visível para qualquer pessoa com o link.",
+  "anonHint": "Sem os nomes, a transcrição mostra “Você”, “Pessoa 1”, “Pessoa 2”… O que foi falado não muda."
 }

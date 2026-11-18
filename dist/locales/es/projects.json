@@ -66,5 +66,7 @@
     "other": "“{name}” se movió a la Papelera; {count} reuniones quedaron en “Sin proyecto”."
   },
   "trashMeeting": "Eliminar reunión (va a la Papelera)",
-  "notesCount": "Reuniones · {count}"
+  "notesCount": "Reuniones · {count}",
+  "parentNoSubs": "Este proyecto todavía no tiene subproyectos. Las reuniones se guardan en los subproyectos: crea uno para empezar.",
+  "parentNoMeetings": "Todavía no hay reuniones en los subproyectos de este proyecto. Las reuniones grabadas o movidas a un subproyecto aparecen aquí."
 }

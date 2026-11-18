@@ -402,15 +402,14 @@ function setFrontmatterField(md, key, value) {
 
 const PREFIX_RE = /^(\d{4}-\d{2}-\d{2} \d{2}h\d{2}) - /;
 
-// Arquivos de áudio guardados de uma nota (na subpasta audio/ ao lado do .md).
+// Arquivos de áudio guardados de uma nota: na subpasta audio/ ao lado do .md e, se o usuário escolheu
+// guardar o áudio só neste computador (#2605), em <userData>/audio pelo id da nota (lib/audioStore.js).
 function audioFilesFor(file) {
-  const dir = path.join(path.dirname(file), 'audio');
-  const base = path.basename(file, '.md');
-  return ['microphone', 'system'].map(k => path.join(dir, `${base} - ${k}.wav`)).filter(p => fs.existsSync(p));
+  return require('./audioStore').audioFilesFor(file);
 }
 
 // Renomeia título (frontmatter e H1) e o arquivo, mantendo a data e hora no início do nome.
-// Os áudios guardados acompanham. Devolve o caminho novo.
+// Os áudios guardados na pasta audio/ acompanham (os de <userData>/audio são pelo id e não mudam). Devolve o caminho novo.
 // root (pasta de notas): para levar junto a pasta de anexos.
 function renameNote(file, title, root) {
   title = String(title).trim();
@@ -427,7 +426,7 @@ function renameNote(file, title, root) {
   const wanted = `${prefix} - ${slugify(title)}.md`;
   if (wanted === name || wanted.replace(/\.md$/, '') === name.replace(/( \(\d+\))?\.md$/, '')) return file;
   const dest = uniquePath(path.dirname(file), wanted);
-  const audios = audioFilesFor(file);
+  const audios = require('./audioStore').notesAudioFiles(file);
   const relinked = attachments.relink(root, md, file, dest);
   if (relinked !== md) fs.writeFileSync(file, relinked);
   fs.renameSync(file, dest);

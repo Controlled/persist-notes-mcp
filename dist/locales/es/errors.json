@@ -54,7 +54,8 @@
   "systemAudio": {
     "missing": "No se encontró el componente de audio del sistema: {path}",
     "generic": "error en el audio del sistema",
-    "exited": "la captura del audio del sistema terminó (código {code})"
+    "exited": "la captura del audio del sistema terminó (código {code})",
+    "linuxMissing": "No se pudo grabar el audio del equipo: Linux no respondió por PipeWire/PulseAudio (programa parec, del paquete pulseaudio-utils). La grabación sigue solo con el micrófono. Instala pulseaudio-utils desde la tienda de programas del sistema y empieza una nueva grabación."
   },
   "updates": {
     "noVersion": "latest-mac.yml sin versión",
@@ -68,9 +69,11 @@
     "offline": "No hay conexión con persistnotes.com. Revisa tu internet e inténtalo de nuevo.",
     "not_configured": "El enlace para compartir no está disponible en esta versión. Actualiza Persist Notes.",
     "rate_limited": "Llegaste al límite de 20 enlaces por día. Inténtalo mañana.",
-    "too_large": "El resumen es demasiado grande para un enlace (más de 64 KB). Usa PDF o Word.",
+    "too_large": "El contenido es demasiado grande para un enlace (más de 512 KB). Desmarca la transcripción o usa PDF o Word.",
     "server": "No se pudo completar ahora. Inténtalo de nuevo en unos instantes."
   },
   "noteEmpty": "La nota está vacía. Escribe en las notas antes de generar el resumen.",
-  "outputSwitch": "No se pudo cambiar la salida de sonido. Cámbiala en la configuración de sonido del sistema."
+  "outputSwitch": "No se pudo cambiar la salida de sonido. Cámbiala en la configuración de sonido del sistema.",
+  "noTerminalInstall": "No encontramos una terminal en este equipo. Se copió el comando de instalación de Claude Code: abre la terminal del sistema, pégalo y pulsa Enter.",
+  "noTerminalLogin": "No encontramos una terminal en este equipo. Abre la terminal del sistema, escribe claude y pulsa Enter para iniciar sesión."
 }

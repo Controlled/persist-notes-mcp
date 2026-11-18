@@ -37,10 +37,12 @@
   "expand": "Mostrar controles de la grabación",
   "collapse": "Contraer",
   "stopRecording": "Terminar grabación",
+  "stopping": "Finalizando…",
   "language": "Idioma de la grabación",
   "langChanged": "Idioma de la transcripción: {lang}, desde ahora",
   "prepTitle": "Listo para grabar",
   "prepNote": "Revisa el idioma y el micrófono antes de grabar.",
   "prepNoteApp": "{app}: revisa el idioma y el micrófono antes de grabar.",
-  "recordMeeting": "Grabar reunión"
+  "recordMeeting": "Grabar reunión",
+  "sysSilenceLinux": "Todavía no hay sonido del equipo. Si hay audio sonando, revisa en la tarjeta de grabación qué salida de sonido está elegida: Persist Notes graba la salida predeterminada del sistema."
 }

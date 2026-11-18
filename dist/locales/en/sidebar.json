@@ -30,5 +30,7 @@
   "resize": "Sidebar width",
   "acctShortLogin": "Sign in",
   "acctShortUpdate": "Update",
-  "acctShortAccount": "See account"
+  "acctShortAccount": "See account",
+  "toggleSubs": "Show or hide the sub-projects of {name}",
+  "newSubIn": "New sub-project in {name}"
 }

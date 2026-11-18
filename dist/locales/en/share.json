@@ -12,7 +12,7 @@
   "days7": "7 days",
   "days30": "30 days",
   "noExpiry": "No expiration",
-  "warning": "This summary will be available to anyone with the link, at persistnotes.com. No audio or transcript is sent.",
+  "warning": "This summary will be available to anyone with the link, at persistnotes.com. No audio is sent.",
   "create": "Create link and copy",
   "proText": "Word, HTML for email and links for 30 days or with no expiration are Pro features.",
   "copied": "Text copied.",
@@ -26,5 +26,11 @@
   "activeNoExpiry": "Link active, no expiration",
   "revoke": "Revoke",
   "revokeConfirm": "Revoke the link? Anyone with the address will no longer see the summary.",
-  "revoked": "Link revoked."
+  "revoked": "Link revoked.",
+  "includeAlso": "Also include",
+  "optNotes": "My notes",
+  "optTranscript": "Transcript",
+  "optNames": "Participant names",
+  "optWarning": "Anything you check above is visible to anyone with the link.",
+  "anonHint": "Without names, the transcript shows “Me”, “Person 1”, “Person 2”… What was said doesn't change."
 }

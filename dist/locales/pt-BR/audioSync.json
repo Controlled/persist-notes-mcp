@@ -1,0 +1,31 @@
+{
+  "title": "Sua pasta de notas é sincronizada pelo {service}",
+  "titleOther": "Sua pasta de notas é sincronizada por um serviço de sincronização",
+  "body": "Os áudios das reuniões ficam na pasta audio/, dentro da pasta de notas, e o {service} envia esses arquivos para a nuvem. O Persist Notes não envia áudio, mas o serviço de sincronização envia. As notas (.md) continuam sincronizadas normalmente.",
+  "bodyOther": "Os áudios das reuniões ficam na pasta audio/, dentro da pasta de notas, e o serviço de sincronização envia esses arquivos para a nuvem. O Persist Notes não envia áudio, mas o serviço de sincronização envia. As notas (.md) continuam sincronizadas normalmente.",
+  "keepLocal": "Guardar o áudio só neste computador",
+  "keepAsIs": "Manter como está",
+  "service": {
+    "icloud": "iCloud Drive",
+    "onedrive": "OneDrive",
+    "dropbox": "Dropbox",
+    "gdrive": "Google Drive",
+    "other": "serviço de sincronização"
+  },
+  "location": "Onde guardar o áudio",
+  "locationNotes": "Na pasta de notas (pasta audio/)",
+  "locationLocal": "Só neste computador",
+  "movedLocal": {
+    "one": "{count} áudio movido para este computador.",
+    "other": "{count} áudios movidos para este computador."
+  },
+  "movedNotes": {
+    "one": "{count} áudio movido para a pasta de notas.",
+    "other": "{count} áudios movidos para a pasta de notas."
+  },
+  "failed": {
+    "one": "Não foi possível mover {count} áudio. Feche programas que estejam usando esse arquivo e tente de novo.",
+    "other": "Não foi possível mover {count} áudios. Feche programas que estejam usando esses arquivos e tente de novo."
+  },
+  "busy": "Não dá para mover os áudios agora: uma gravação ou um processamento está em andamento. Espere terminar e tente de novo."
+}

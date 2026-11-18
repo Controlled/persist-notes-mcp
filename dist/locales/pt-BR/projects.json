@@ -66,5 +66,7 @@
     "other": "“{name}” foi para a Lixeira; {count} reuniões ficaram em “Sem projeto”."
   },
   "trashMeeting": "Excluir reunião (vai para a Lixeira)",
-  "notesCount": "Reuniões · {count}"
+  "notesCount": "Reuniões · {count}",
+  "parentNoSubs": "Este projeto ainda não tem sub-projetos. As reuniões ficam nos sub-projetos: crie um para começar.",
+  "parentNoMeetings": "Nenhuma reunião nos sub-projetos deste projeto ainda. As reuniões gravadas ou movidas para um sub-projeto aparecem aqui."
 }

@@ -54,7 +54,8 @@
   "systemAudio": {
     "missing": "System audio component not found: {path}",
     "generic": "system audio error",
-    "exited": "system audio capture stopped (code {code})"
+    "exited": "system audio capture stopped (code {code})",
+    "linuxMissing": "Couldn't record the computer's audio: Linux didn't respond through PipeWire/PulseAudio (the parec program, from the pulseaudio-utils package). Recording continues with the microphone only. Install pulseaudio-utils from your system's software store and start a new recording."
   },
   "updates": {
     "noVersion": "latest-mac.yml has no version",
@@ -68,9 +69,11 @@
     "offline": "Can’t reach persistnotes.com. Check your internet connection and try again.",
     "not_configured": "Share links aren’t available in this version. Update Persist Notes.",
     "rate_limited": "You’ve reached the limit of 20 links per day. Try again tomorrow.",
-    "too_large": "The summary is too large for a link (over 64 KB). Use PDF or Word.",
+    "too_large": "The content is too large for a link (over 512 KB). Uncheck the transcript or use PDF or Word.",
     "server": "Couldn’t finish that right now. Try again in a moment."
   },
   "noteEmpty": "The note is empty. Write in the notes before generating the summary.",
-  "outputSwitch": "Couldn't switch the sound output. Change it in the system sound settings."
+  "outputSwitch": "Couldn't switch the sound output. Change it in the system sound settings.",
+  "noTerminalInstall": "We couldn't find a terminal on this computer. The Claude Code install command was copied: open your system terminal, paste it and press Enter.",
+  "noTerminalLogin": "We couldn't find a terminal on this computer. Open your system terminal, type claude and press Enter to sign in."
 }

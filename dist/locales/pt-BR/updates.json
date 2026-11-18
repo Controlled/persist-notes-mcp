@@ -5,6 +5,7 @@
   "ready": "Versão {version} pronta: instala quando você fechar o app.",
   "current": "Versão {version}. Você está na versão mais recente.",
   "manual": "Versão {version} disponível. Mova o Persist Notes para a pasta Aplicativos para atualizar sozinho, ou baixe no site.",
+  "manualDeb": "Versão {version} disponível. Baixe e instale o novo pacote .deb para atualizar.",
   "error": "Versão {version}. Não deu para procurar atualizações agora.",
   "unsupported": "Versão {version}. A atualização automática funciona no app instalado.",
   "version": "Versão {version}.",
@@ -16,5 +17,7 @@
   "dlgTitle": "Atualização necessária",
   "keepReading": "Continuar só lendo por enquanto",
   "site": "Baixar no site",
-  "now": "Atualizar agora"
+  "now": "Atualizar agora",
+  "beta": "Receber versões beta",
+  "betaHint": "Versões de teste chegam antes do lançamento e podem ter problemas. Quando sair a versão estável equivalente, o app atualiza para ela."
 }

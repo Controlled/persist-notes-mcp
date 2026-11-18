@@ -66,5 +66,7 @@
     "other": "“{name}” was moved to the Trash; {count} meetings are now in “No project”."
   },
   "trashMeeting": "Delete meeting (moves to the Trash)",
-  "notesCount": "Meetings · {count}"
+  "notesCount": "Meetings · {count}",
+  "parentNoSubs": "This project has no sub-projects yet. Meetings live in sub-projects: create one to get started.",
+  "parentNoMeetings": "No meetings in this project’s sub-projects yet. Meetings recorded in or moved to a sub-project show up here."
 }

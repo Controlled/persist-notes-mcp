@@ -5,6 +5,7 @@
   "ready": "Version {version} ready: it installs when you quit the app.",
   "current": "Version {version}. You're on the latest version.",
   "manual": "Version {version} available. Move Persist Notes to the Applications folder to update automatically, or download it from the website.",
+  "manualDeb": "Version {version} available. Download and install the new .deb package to update.",
   "error": "Version {version}. Couldn't check for updates right now.",
   "unsupported": "Version {version}. Automatic updates work in the installed app.",
   "version": "Version {version}.",
@@ -16,5 +17,7 @@
   "dlgTitle": "Update required",
   "keepReading": "Keep read-only for now",
   "site": "Download from the website",
-  "now": "Update now"
+  "now": "Update now",
+  "beta": "Get beta versions",
+  "betaHint": "Test versions arrive before the release and may have issues. When the matching stable version comes out, the app updates to it."
 }

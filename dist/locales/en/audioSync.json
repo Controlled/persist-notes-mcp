@@ -1,0 +1,31 @@
+{
+  "title": "Your notes folder is synced by {service}",
+  "titleOther": "Your notes folder is synced by a sync service",
+  "body": "Meeting audio is kept in the audio/ folder inside your notes folder, and {service} uploads these files to the cloud. Persist Notes doesn't upload audio, but the sync service does. Your notes (.md) keep syncing as usual.",
+  "bodyOther": "Meeting audio is kept in the audio/ folder inside your notes folder, and the sync service uploads these files to the cloud. Persist Notes doesn't upload audio, but the sync service does. Your notes (.md) keep syncing as usual.",
+  "keepLocal": "Keep audio only on this computer",
+  "keepAsIs": "Keep as is",
+  "service": {
+    "icloud": "iCloud Drive",
+    "onedrive": "OneDrive",
+    "dropbox": "Dropbox",
+    "gdrive": "Google Drive",
+    "other": "sync service"
+  },
+  "location": "Where to keep the audio",
+  "locationNotes": "In the notes folder (audio/ folder)",
+  "locationLocal": "Only on this computer",
+  "movedLocal": {
+    "one": "{count} audio file moved to this computer.",
+    "other": "{count} audio files moved to this computer."
+  },
+  "movedNotes": {
+    "one": "{count} audio file moved to the notes folder.",
+    "other": "{count} audio files moved to the notes folder."
+  },
+  "failed": {
+    "one": "Couldn't move {count} audio file. Close any programs that are using it and try again.",
+    "other": "Couldn't move {count} audio files. Close any programs that are using them and try again."
+  },
+  "busy": "Can't move the audio right now: a recording or processing is in progress. Wait for it to finish and try again."
+}

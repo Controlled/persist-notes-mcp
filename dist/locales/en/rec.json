@@ -37,10 +37,12 @@
   "expand": "Show recording controls",
   "collapse": "Collapse",
   "stopRecording": "Stop recording",
+  "stopping": "Stopping…",
   "language": "Recording language",
   "langChanged": "Transcription language: {lang}, from now on",
   "prepTitle": "Ready to record",
   "prepNote": "Check the language and microphone before recording.",
   "prepNoteApp": "{app}: check the language and microphone before recording.",
-  "recordMeeting": "Record meeting"
+  "recordMeeting": "Record meeting",
+  "sysSilenceLinux": "No computer audio yet. If audio is playing, check which sound output is selected on the recording card: Persist Notes records the system's default output."
 }

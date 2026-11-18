@@ -79,6 +79,21 @@ function findGroup(root, name) {
   return listGroups(root).find(g => key(g.name) === key(name)) || null;
 }
 
+// Página do projeto pai (#2569): o pai só agrupa, então a página junta as reuniões de todos os sub-projetos
+// (da mais recente para a mais antiga), cada uma com o sub-projeto de onde veio. Só lê: o pai não tem síntese
+// nem arquivo próprio. Devolve null quando o nome não é de um pai.
+function groupPage(root, name) {
+  const g = findGroup(root, name);
+  if (!g) return null;
+  const leaves = listProjects(root).filter(p => p.parent === g.name);
+  const labels = new Map(leaves.map(p => [p.name, p.label]));
+  return {
+    name: g.name, label: g.name, parent: '', isGroup: true, dir: g.dir,
+    children: leaves.map(p => ({ name: p.name, label: p.label, noteCount: p.noteCount })),
+    notes: notes.listNotes(root, { project: g.name }).map(n => ({ ...n, projectLabel: labels.get(n.project) || n.project }))
+  };
+}
+
 function createGroup(root, name) {
   const clean = cleanProjectName(name);
   const existing = findGroup(root, clean);
@@ -204,7 +219,8 @@ function moveNote(root, file, projectName) {
   if (path.resolve(path.dirname(file)) === path.resolve(destDir)) return file;
   fs.mkdirSync(destDir, { recursive: true });
   const dest = notes.uniquePath(destDir, path.basename(file));
-  const audios = notes.audioFilesFor(file);
+  // Só os áudios da pasta audio/ acompanham; os guardados neste computador são pelo id da nota (#2605).
+  const audios = require('./audioStore').notesAudioFiles(file);
   // Ao mover, a sugestão de projeto deixa de valer.
   // Os links das imagens coladas (anexos/) são relativos à pasta da nota: acompanham a mudança.
   const md = attachments.relink(root, notes.setFrontmatterField(fs.readFileSync(file, 'utf8'), 'suggested_project', null), file, dest);
@@ -268,6 +284,8 @@ async function deleteProject(root, name, { mode = 'move', trash, onMoved } = {})
     for (const f of info.files) {
       const att = attachments.dirFor(root, f);
       if (fs.existsSync(att)) await trash(att);
+      // Áudios guardados só neste computador (#2605): fora da pasta do projeto, vão para a Lixeira um a um.
+      for (const a of notes.audioFilesFor(f)) if (!isInside(info.dir, a)) await trash(a);
     }
   }
   await trash(info.dir);
@@ -275,7 +293,7 @@ async function deleteProject(root, name, { mode = 'move', trash, onMoved } = {})
 }
 
 module.exports = {
-  SYNTHESIS_FILE, GROUP_FILE, synthesisFile, isProjectDirName, cleanProjectName, listProjects, listGroups, findProject, findGroup,
+  SYNTHESIS_FILE, GROUP_FILE, synthesisFile, isProjectDirName, cleanProjectName, listProjects, listGroups, findProject, findGroup, groupPage,
   createProject, createProjectPath, createGroup, renameProject, renameGroup, moveProject, projectOf, moveNote, splitName,
   deleteInfo, deleteProject, noteTrashItems, meetingFiles
 };

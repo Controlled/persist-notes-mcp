@@ -13,7 +13,7 @@
   "updateNow": "Actualizar ahora",
   "files": "Archivos",
   "notesDir": "Carpeta de las reuniones (.md)",
-  "keepAudio": "Guardar el audio (.wav) en una subcarpeta <code>audio/</code>",
+  "keepAudio": "Guardar el audio de las reuniones (.wav)",
   "recording": "Grabación",
   "systemAudio": "Capturar también el audio de la computadora (participantes de Teams, Meet, Zoom)",
   "myName": "Tu nombre en la transcripción",
@@ -109,5 +109,6 @@
   "autoStopDefault": "(predeterminado)",
   "autoStopOff": "Desactivada",
   "meetingAutoStopHint": "Se aplica a las grabaciones iniciadas desde la pregunta de reunión. Una grabación que inicias tú nunca termina sola.",
-  "recordShortcutHint": "{key} graba la reunión detectada y, durante la grabación, la termina, desde cualquier app; {mark} marca el momento. Fuera de eso, el atajo queda libre para las otras apps."
+  "recordShortcutHint": "{key} graba la reunión detectada y, durante la grabación, la termina, desde cualquier app; {mark} marca el momento. Fuera de eso, el atajo queda libre para las otras apps.",
+  "sessionMemoryOnly": "Este equipo no tiene un llavero del sistema disponible (como GNOME Keyring o KWallet), así que el inicio de sesión se guarda solo mientras Persist Notes está abierto. Al abrir la app de nuevo, entra con el código del correo."
 }
